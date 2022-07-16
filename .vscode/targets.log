@@ -1,0 +1,1047 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+process_begin: CreateProcess(NULL, ls [0-9][0-9]_*.md, ...) failed.
+Makefile:1: pipe: No error
+
+make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', needed by 'html/js/acorn_codemirror.js'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Jul 16 13:21:24 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+ACSVCPORT = 17532
+# environment
+USERPROFILE = C:\Users\98991
+# environment
+LOCAL_GIT_DIRECTORY = C:\Users\98991\AppData\Local\GitHubDesktop\app-2.9.6\resources\app\git
+# environment
+LOCALAPPDATA = C:\Users\98991\AppData\Local
+# environment
+VSCODE_CWD = C:\Users\98991\AppData\Local\GitHubDesktop\app-2.9.6
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11880_YOOJRIEORGIUAYOY
+# makefile (from 'Makefile', line 3)
+SVGS := img/control-io.svg img/controlflow-else.svg img/controlflow-if.svg img/controlflow-loop.svg img/controlflow-nested-if.svg img/controlflow-straight.svg img/cos_sin.svg img/flood-grid.svg img/game-grid.svg img/html-boxes.svg img/html-links.svg img/html-tree.svg img/line-grid.svg img/linked-list.svg img/mirror.svg img/pizza-squirrel.svg img/rabbits.svg img/re_number.svg img/re_pigchickens.svg img/re_slow.svg img/syntax_tree.svg img/transform.svg img/unicycle.svg img/weresquirrel.svg
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\98991\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\98991\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\98991\OneDrive
+# makefile
+CURDIR := e:/projects/web/reactJS/2022/Eloquent-JavaScript
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 11880
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 1)
+CHAPTERS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\98991
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\98991\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\98991\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\98991\AppData\Local\Programs\Python\Python310\;C:\Users\98991\AppData\Local\Microsoft\WindowsApps;C:\Users\98991\AppData\Local\GitHubDesktop\bin;C:\Users\98991\AppData\Roaming\npm;C:\Users\98991\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\98991\AppData\Local\atom\bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = LAPTOP-2OHR37KF
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133023702011050466
+# environment
+LOGONSERVER = \\LAPTOP-2OHR37KF
+# environment
+USERNAME = Smigle
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = LAPTOP-2OHR37KF
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
+# makefile
+.DEFAULT_GOAL := all
+# environment
+NVM_HOME = C:\Users\98991\AppData\Roaming\nvm
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 127
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-2OHR37KF
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\98991\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+NVM_SYMLINK = C:\Program Files\nodejs
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\98991\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\48c12812f43b22bd557849998d84da0b-1.69.1-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expa 
+nsion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 8d01
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+# variable set hash-table stats:
+# Load=102/1024=10%, Rehash=0, Collisions=8/141=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key e:/projects/web/reactJS/2022/Eloquent-JavaScript, mtime 1657958870): 38 files, no impossibilities.
+# img (key e:/projects/web/reactJS/2022/Eloquent-JavaScript/img, mtime 1657958870): 111 files, no impossibilities.
+# code/solutions (key e:/projects/web/reactJS/2022/Eloquent-JavaScript/code/solutions, mtime 1657958870): 61 files, no impossibilities.
+# code/solutions/20_3_a_public_space_on_the_web (key e:/projects/web/reactJS/2022/Eloquent-JavaScript/code/solutions/20_3_a_public_space_on_the_web, mtime 1657958870): 5 files, no impossibilities.
+
+# 215 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+html/%.html: %.md
+#  recipe to execute (from 'Makefile', line 11):
+	node src/render_html.js $< > $@
+	node src/build_code.js $<
+
+img/generated/%.pdf: img/%.svg
+#  recipe to execute (from 'Makefile', line 57):
+	inkscape --export-pdf=$@ $<
+
+pdf/%.tex: %.md
+#  recipe to execute (from 'Makefile', line 60):
+	node src/render_latex.js $< > $@
+
+epub/%.xhtml: %.md src/render_html.js
+#  recipe to execute (from 'Makefile', line 74):
+	node src/render_html.js --epub $< > $@
+
+# 4 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+code/solutions/21_2_comment_field_resets.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/22_1_pathfinding.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/18_1_content_negotiation.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/20_1_search_tool.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/05_3_everything.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/18_2_a_javascript_workbench.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/extract_hints.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/03_2_recursion.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+epubcheck: book.epub
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	epubcheck book.epub 2>&1 | grep -v 'img/.*\.svg'
+
+# Not a target:
+code/solutions/06_3_iterable_groups.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/weresquirrel.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/06_4_borrowing_a_method.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+node_modules/codemirror/addon/edit/matchbrackets.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+node_modules/acorn/dist/walk.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/17_3_a_bouncing_ball.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/11_2_building_promiseall.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/02_3_chessboard.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/pizza-squirrel.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/15_2_mouse_trail.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+book_mobile.pdf: pdf/book_mobile.tex tex
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	cd pdf && sh build.sh book_mobile > /dev/null
+	mv pdf/book_mobile.pdf .	
+
+# Not a target:
+code/solutions/19_1_keyboard_bindings.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+epub/toc.xhtml.src:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/syntax_tree.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/14_1_build_a_table.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/control-io.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/12_1_arrays.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+html: html/js/acorn_codemirror.js code/skillsharing.zip code/solutions/20_3_a_public_space_on_the_web.zip html/js/chapter_info.js
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 12:37:50
+#  File has not been updated.
+
+# Not a target:
+code/solutions/09_2_quoting_style.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/07_1_measuring_a_robot.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/transform.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/15_1_balloon.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/03_3_bean_counting.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+epub/content.opf.src:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-16 12:37:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+code/solutions/17_2_the_pie_chart.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tex: pdf/hints.tex img/generated/control-io.pdf img/generated/controlflow-else.pdf img/generated/controlflow-if.pdf img/generated/controlflow-loop.pdf img/generated/controlflow-nested-if.pdf img/generated/controlflow-straight.pdf img/generated/cos_sin.pdf img/generated/flood-grid.pdf img/generated/game-grid.pdf img/generated/html-boxes.pdf img/generated/html-links.pdf img/generated/html-tree.pdf img/generated/line-grid.pdf img/generated/linked-list.pdf img/generated/mirror.pdf img/generated/pizza-squirrel.pdf img/generated/rabbits.pdf img/generated/re_number.pdf img/generated/re_pigchickens.pdf img/generated/re_slow.pdf img/generated/syntax_tree.pdf img/generated/transform.pdf img/generated/unicycle.pdf img/generated/weresquirrel.pdf
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/02_2_fizzbuzz.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/16_2_pausing_the_game.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/03_1_minimum.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+code/solutions/20_3_a_public_space_on_the_web.zip: code/solutions/20_3_a_public_space_on_the_web/index.html code/solutions/20_3_a_public_space_on_the_web/other.html code/solutions/20_3_a_public_space_on_the_web/public_space.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	rm -f $@
+	cd code/solutions; zip 20_3_a_public_space_on_the_web.zip 20_3_a_public_space_on_the_web/*
+
+# Not a target:
+code/solutions/02_1_looping_a_triangle.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+node_modules/codemirror/mode/htmlmixed/htmlmixed.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+node_modules/codemirror/mode/xml/xml.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/line-grid.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/04_2_reversing_an_array.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+epub/hints.xhtml: src/extract_hints.js src/render_html.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 77):
+	node src/extract_hints.js | node src/render_html.js --epub - > $@
+
+# Not a target:
+code/solutions/04_4_deep_comparison.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/add_images_to_epub.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+html/js/acorn_codemirror.js: node_modules/codemirror/lib/codemirror.js node_modules/codemirror/mode/javascript/javascript.js node_modules/codemirror/mode/css/css.js node_modules/codemirror/mode/xml/xml.js node_modules/codemirror/mode/htmlmixed/htmlmixed.js node_modules/codemirror/addon/edit/matchbrackets.js node_modules/acorn/dist/acorn.js node_modules/acorn/dist/walk.js
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	node_modules/.bin/uglifyjs $^ -m -o $@
+
+# Not a target:
+code/solutions/07_2_robot_efficiency.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/20_2_directory_creation.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+code/skillsharing.zip: html/21_skillsharing.html
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	rm -f $@
+	cd code; zip skillsharing.zip skillsharing/*.js* skillsharing/public/*.*
+
+epub/toc.xhtml: epub/toc.xhtml.src epub/hints.xhtml
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 71):
+	node src/generate_epub_toc.js $^ > $@
+
+# Not a target:
+src/render_html.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/controlflow-if.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+pdf/hints.tex: src/extract_hints.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	node src/extract_hints.js | node src/render_latex.js - > $@
+
+# Not a target:
+img/generated/html-tree.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/17_1_shapes.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+epub/style.css:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/controlflow-else.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/linked-list.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/22_3_optimizing.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/re_pigchickens.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/09_1_regexp_golf.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/06_2_groups.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/09_3_numbers_again.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/flood-grid.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/05_1_flattening.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+html/21_skillsharing.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/rabbits.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: html book.pdf book_mobile.pdf book.epub book.mobi
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+img/generated/html-links.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/05_4_dominant_writing_direction.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/14_3_the_cats_hat.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+node_modules/codemirror/mode/javascript/javascript.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+book.epub: epub/titlepage.xhtml epub/toc.xhtml epub/hints.xhtml epub/content.opf.src epub/style.css src/add_images_to_epub.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 64):
+	rm -f $@
+	grep '<img' epub/*.xhtml | sed -e 's/.*src="\([^"]*\)".*/\1/' | xargs -I{} rsync -R "{}" epub
+	node src/add_images_to_epub.js
+	 
+cd epub; zip -X ../$@ mimetype
+	cd epub; zip -X ../$@ -r * -x mimetype -x *.src
+
+# Not a target:
+code/solutions/12_3_comments.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/unicycle.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/08_1_retry.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+book.pdf: tex pdf/book.tex
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 43):
+	cd pdf && sh build.sh book > /dev/null
+	mv pdf/book.pdf .	
+
+# Not a target:
+node_modules/codemirror/mode/css/css.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: html
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 36):
+	@for F in $(CHAPTERS); do echo Testing $$F:; node src/run_tests.js $$F.md; done
+	@node src/check_links.js
+	@echo Done.
+
+# Not a target:
+img/generated/re_slow.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/18_3_conways_game_of_life.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/14_2_elements_by_tag_name.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+node_modules/codemirror/lib/codemirror.js:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+src/chapter_info.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/04_1_the_sum_of_a_range.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/controlflow-loop.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/11_1_tracking_the_scalpel.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/19_3_circles.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+node_modules/acorn/dist/acorn.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/controlflow-straight.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/20_3_a_public_space_on_the_web/public_space.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/04_3_a_list.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/game-grid.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/19_2_efficient_drawing.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/19_4_proper_lines.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/mirror.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/21_1_disk_persistence.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/08_2_the_locked_box.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+pdf/book_mobile.tex: pdf/book.tex
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 47):
+	cat pdf/book.tex | sed -e 's/natbib}/natbib}\n\\usepackage[a5paper, left=5mm, right=5mm]{geometry}/' | sed -e 's/setmonofont.Scale=0.8./setmonofont[Scale=0.75]/' > pdf/book_mobile.tex
+
+# Not a target:
+code/solutions/10_2_roads_module.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/20_3_a_public_space_on_the_web/index.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+epub/titlepage.xhtml:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/16_3_a_monster.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/12_4_fixing_scope.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/16_1_game_over.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/06_1_a_vector_type.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/html-boxes.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/05_2_your_own_loop.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+book.mobi: book.epub img/cover.jpg
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	ebook-convert book.epub book.mobi --output-profile=kindle --cover=img/cover.jpg --remove-first-image
+
+# Not a target:
+img/cover.jpg:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/15_3_tabs.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/controlflow-nested-if.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/re_number.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/22_2_timing.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/07_3_persistent_group.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+code/solutions/20_3_a_public_space_on_the_web:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+img/generated/cos_sin.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+pdf/book.tex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+html/js/chapter_info.js: code/solutions/02_1_looping_a_triangle.js code/solutions/02_2_fizzbuzz.js code/solutions/02_3_chessboard.js code/solutions/03_1_minimum.js code/solutions/03_2_recursion.js code/solutions/03_3_bean_counting.js code/solutions/04_1_the_sum_of_a_range.js code/solutions/04_2_reversing_an_array.js code/solutions/04_3_a_list.js code/solutions/04_4_deep_comparison.js code/solutions/05_1_flattening.js code/solutions/05_2_your_own_loop.js code/solutions/05_3_everything.js code/solutions/05_4_dominant_writing_direction.js code/solutions/06_1_a_vector_type.js code/solutions/06_2_groups.js code/solutions/06_3_iterable_groups.js code/solutions/06_4_borrowing_a_method.js code/solutions/07_1_measuring_a_robot.js code/solutions/07_2_robot_efficiency.js code/solutions/07_3_per 
+sistent_group.js code/solutions/08_1_retry.js code/solutions/08_2_the_locked_box.js code/solutions/09_1_regexp_golf.js code/solutions/09_2_quoting_style.js code/solutions/09_3_numbers_again.js code/solutions/10_2_roads_module.js code/solutions/11_1_tracking_the_scalpel.js code/solutions/11_2_building_promiseall.js code/solutions/12_1_arrays.js code/solutions/12_3_comments.js code/solutions/12_4_fixing_scope.js code/solutions/14_1_build_a_table.html code/solutions/14_2_elements_by_tag_name.html code/solutions/14_3_the_cats_hat.html code/solutions/15_1_balloon.html code/solutions/15_2_mouse_trail.html code/solutions/15_3_tabs.html code/solutions/16_1_game_over.html code/solutions/16_2_pausing_the_game.html code/solutions/16_3_a_monster.html code/solutions/17_1_shapes.html code/solutions/17_2_the_pie_chart.html code/solutions/17_3_a_bouncing_ball.html code/solutions/18_1_content_negotiation.js code/solutions/18_2_a_javascript_workbench.html code/solutions/18_3_conways_game_of_life.html code/solutions/19_1_keyboard_bindings.html code/solutions/19_2_efficient_drawing.html code/solutions/19_3_circles.html code/solutions/19_4_proper_lines.html code/solutions/20_1_search_tool.js code/solutions/20_2_directory_creation.js code/solutions/20_3_a_public_space_on_the_web code/solutions/21_1_disk_persistence.js code/solutions/21_2_comment_field_resets.js code/solutions/22_1_pathfinding.js code/solutions/22_2_timing.js code/solutions/22_3_optimizing.js src/chapter_info.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 15):
+	node src/chapter_info.js > html/js/chapter_info.js
+
+# Not a target:
+code/solutions/20_3_a_public_space_on_the_web/other.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=125/1024=12%, Rehash=0, Collisions=26/274=9%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path. 
+
+
+# strcache buffers: 1 (0) / strings = 339 / storage = 7736 B / avg = 22 B
+# current buf: size = 8174 B / used = 7736 B / count = 339 / avg = 22 B
+
+# strcache performance: lookups = 394 / hit rate = 13%
+# hash-table stats:
+# Load=339/8192=4%, Rehash=0, Collisions=12/394=3%
+# Finished Make data base on Sat Jul 16 13:21:24 2022
+
+ 
