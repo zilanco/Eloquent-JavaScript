@@ -1,6 +1,6 @@
 {{meta {docid: values}}}
 
-# Values, Types, and Operators
+# بەهاکان، جۆرەکان، و کارپێکەرەکان
 
 {{quote {author: "Master Yuan-Ma", title: "The Book of Programming", chapter: true}
 
@@ -46,7 +46,7 @@ weights of the digits shown below them:
 So that's the binary number 00001101. Its non-zero digits stand for
 8, 4, and 1, and add up to 13.
 
-## Values
+## بەهاکان
 
 {{index [memory, organization], "volatile data storage", "hard drive"}}
 
@@ -79,7 +79,7 @@ This chapter introduces the atomic elements of JavaScript programs,
 that is, the simple value types and the operators that can act on such
 values.
 
-## Numbers
+## ژمارەکان
 
 {{index [syntax, number], number, [number, notation]}}
 
@@ -155,7 +155,7 @@ causes practical problems only in specific situations. The important
 thing is to be aware of it and treat fractional digital numbers as
 approximations, not as precise values.
 
-### Arithmetic
+### ژمێرکاری
 
 {{index [syntax, operator], operator, "binary operator", arithmetic, addition, multiplication}}
 
@@ -210,7 +210,7 @@ example, `314 % 100` produces `14`, and `144 % 12` gives `0`.
 The remainder operator's precedence is the same as that of multiplication and
 division. You'll also often see this operator referred to as _modulo_.
 
-### Special numbers
+### ژمارە تایبەتەکان
 
 {{index [number, "special values"]}}
 
@@ -233,7 +233,7 @@ calculate `0 / 0` (zero divided by zero), `Infinity - Infinity`, or
 any number of other numeric operations that don't yield a meaningful
 result.
 
-## Strings
+## دەزووەکان
 
 {{indexsee "grave accent", backtick}}
 
@@ -346,7 +346,7 @@ When you write something inside `${}` in a template literal, its
 result will be computed, converted to a string, and included at that
 position. The example produces "_half of 100 is 50_".
 
-## Unary operators
+## بەکارخەرە یەکەکان
 
 {{index operator, "typeof operator", type}}
 
