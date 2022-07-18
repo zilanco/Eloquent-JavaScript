@@ -514,4 +514,4 @@ console.log(factorial(8));
 // → 40320
 ```
 
-Good luck!
+بەختێکی باش!
