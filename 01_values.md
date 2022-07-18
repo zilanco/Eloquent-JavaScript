@@ -382,7 +382,7 @@ console.log(- (10 - 2))
 // → -8
 ```
 
-## Boolean values
+## بەها بولیەکان
 
 {{index Boolean, operator, true, false, bit}}
 
@@ -391,7 +391,7 @@ possibilities, like "yes" and "no" or "on" and "off". For this
 purpose, JavaScript has a _Boolean_ type, which has just two values,
 true and false, which are written as those words.
 
-### Comparison
+### بەراوردکردن
 
 {{index comparison}}
 
@@ -453,7 +453,7 @@ console.log(NaN == NaN)
 and as such, it isn't equal to the result of any _other_ nonsensical
 computations.
 
-### Logical operators
+### کارپێکەرە لۆژیکیەکان
 
 {{index reasoning, "logical operators"}}
 
@@ -524,7 +524,7 @@ language). The value on the left of the question mark "picks" which of
 the other two values will come out. When it is true, it chooses the
 middle value, and when it is false, it chooses the value on the right.
 
-## Empty values
+## بەها بەتاڵەکان
 
 {{index undefined, null}}
 
@@ -541,7 +541,7 @@ of JavaScript's design, and it doesn't matter most of the time. In cases
 where you actually have to concern yourself with these values, I
 recommend treating them as mostly interchangeable.
 
-## Automatic type conversion
+## گۆڕینی جۆری ئۆتۆماتیکی
 
 {{index NaN, "type coercion"}}
 
@@ -618,7 +618,7 @@ prevent unexpected type conversions from tripping you up. But when you're
 certain the types on both sides will be the same, there is no problem with
 using the shorter operators.
 
-### Short-circuiting of logical operators
+### کورت کردنی کارپێکەرە لۆژیکییەکان
 
 {{index "type coercion", [Boolean, "conversion to"], operator}}
 
@@ -670,7 +670,7 @@ ignore `X`. This is called _((short-circuit evaluation))_.
 The conditional operator works in a similar way. Of the second and
 third values, only the one that is selected is evaluated.
 
-## Summary
+## کورتە
 
 We looked at four types of JavaScript values in this chapter: numbers,
 strings, Booleans, and undefined values.
