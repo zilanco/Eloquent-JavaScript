@@ -1,4 +1,4 @@
-# Functions
+# فەنکشنکان
 
 {{quote {author: "Donald Knuth", chapter: true}
 
@@ -33,7 +33,7 @@ defined, and thus less flexible, than in human language. Therefore, we
 usually _have_ to introduce new concepts to avoid repeating ourselves
 too much.
 
-## Defining a function
+## پێناسەکردنی فەنکشنێک
 
 {{index "square example", [function, definition], [binding, definition]}}
 
@@ -104,7 +104,7 @@ Parameters to a function behave like regular bindings, but their
 initial values are given by the _caller_ of the function, not the code
 in the function itself.
 
-## Bindings and scopes
+## بەستنەوە و مەوداکان
 
 {{indexsee "top-level scope", "global scope"}}
 {{index "var keyword", "global scope", [binding, global], [binding, "scope of"]}}
@@ -170,7 +170,7 @@ console.log(n);
 
 {{id scoping}}
 
-### Nested scope
+### مەودای هێلانەکراو
 
 {{index [nesting, "of functions"], [nesting, "of scope"], scope, "inner function", "lexical scoping"}}
 
