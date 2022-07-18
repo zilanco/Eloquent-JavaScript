@@ -342,7 +342,7 @@ them a lot in [Chapter ?](higher_order).
 
 {{id stack}}
 
-## The call stack
+## کۆکراوەی پەیوەندی
 
 {{indexsee stack, "call stack"}}
 {{index "call stack", [function, application]}}
@@ -415,7 +415,7 @@ console.log(chicken() + " came first.");
 // → ??
 ```
 
-## Optional Arguments
+## ئارگومێنتە ئیختیارییەکان
 
 {{index argument, [function, application]}}
 
@@ -500,7 +500,7 @@ console.log("C", "O", 2);
 // → C O 2
 ```
 
-## Closure
+## داخستن
 
 {{index "call stack", "local binding", [function, "as value"], scope}}
 
@@ -572,7 +572,7 @@ which its `factor` parameter is bound to 2. The function value it
 returns, which is stored in `twice`, remembers this environment. So
 when that is called, it multiplies its argument by 2.
 
-## Recursion
+## دووبارەبوونەوە
 
 {{index "power example", "stack overflow", recursion, [function, application]}}
 
