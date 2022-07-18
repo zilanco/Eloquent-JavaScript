@@ -801,7 +801,7 @@ and cloudy weather). But be careful—it is easy to forget such a
 `break`, which will cause the program to execute code you do not want
 executed.
 
-## Capitalization
+## کاپیتاڵیزەکردن
 
 {{index capitalization, [binding, naming], [whitespace, syntax]}}
 
@@ -835,7 +835,7 @@ constructor. What a constructor is will become clear in [Chapter
 ?](object#constructors). For now, the important thing is not
 to be bothered by this apparent lack of ((consistency)).
 
-## Comments
+## کۆمێنتەکان
 
 {{index readability}}
 
@@ -880,7 +880,7 @@ information about a file or a chunk of program.
 const myNumber = 11213;
 ```
 
-## Summary
+## کورتە
 
 You now know that a program is built out of statements, which
 themselves sometimes contain more statements. Statements tend to
@@ -901,7 +901,7 @@ Functions are special values that encapsulate a piece of program. You
 can invoke them by writing `functionName(argument1, argument2)`. Such
 a function call is an expression and may produce a value.
 
-## Exercises
+## ڕاهێنانەکان
 
 {{index exercises}}
 
@@ -919,7 +919,7 @@ at the solutions only after you've solved the exercise, or at least
 after you've attacked it long and hard enough to have a slight
 headache.
 
-### Looping a triangle
+### لوپکردنی سێگۆشەیەک
 
 {{index "triangle (exercise)"}}
 
@@ -973,7 +973,7 @@ solution can closely follow the number-printing program.
 
 hint}}
 
-### FizzBuzz
+### فیزبۆز
 
 {{index "FizzBuzz (exercise)", loop, "conditional execution"}}
 
@@ -1019,7 +1019,7 @@ of the `||` operator.
 
 hint}}
 
-### Chessboard
+### تەختەی شەترەنج
 
 {{index "chessboard (exercise)", loop, [nesting, "of loops"], "newline character"}}
 
