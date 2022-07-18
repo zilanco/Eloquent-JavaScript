@@ -11,7 +11,7 @@ make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', ne
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 16 13:21:24 2022
+# Make data base, printed on Mon Jul 18 23:04:30 2022
 
 # Variables
 
@@ -26,11 +26,9 @@ ACSVCPORT = 17532
 # environment
 USERPROFILE = C:\Users\98991
 # environment
-LOCAL_GIT_DIRECTORY = C:\Users\98991\AppData\Local\GitHubDesktop\app-2.9.6\resources\app\git
-# environment
 LOCALAPPDATA = C:\Users\98991\AppData\Local
 # environment
-VSCODE_CWD = C:\Users\98991\AppData\Local\GitHubDesktop\app-2.9.6
+VSCODE_CWD = C:\Program Files\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -38,13 +36,13 @@ SYSTEMROOT = C:\Windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11880_YOOJRIEORGIUAYOY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12160_FUUYTPFCKHKYWJCV
 # makefile (from 'Makefile', line 3)
 SVGS := img/control-io.svg img/controlflow-else.svg img/controlflow-if.svg img/controlflow-loop.svg img/controlflow-nested-if.svg img/controlflow-straight.svg img/cos_sin.svg img/flood-grid.svg img/game-grid.svg img/html-boxes.svg img/html-links.svg img/html-tree.svg img/line-grid.svg img/linked-list.svg img/mirror.svg img/pizza-squirrel.svg img/rabbits.svg img/re_number.svg img/re_pigchickens.svg img/re_slow.svg img/syntax_tree.svg img/transform.svg img/unicycle.svg img/weresquirrel.svg
 # environment
@@ -96,7 +94,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 11880
+VSCODE_PID = 12160
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -128,7 +126,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\98991\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\98991\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\98991\AppData\Local\Programs\Python\Python310\;C:\Users\98991\AppData\Local\Microsoft\WindowsApps;C:\Users\98991\AppData\Local\GitHubDesktop\bin;C:\Users\98991\AppData\Roaming\npm;C:\Users\98991\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\98991\AppData\Local\atom\bin
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;%NVM_HOME%;%NVM_SYMLINK%;C:\ProgramData\chocolatey\bin;C:\Users\98991\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\98991\AppData\Local\Programs\Python\Python310\;C:\Users\98991\AppData\Local\Microsoft\WindowsApps;C:\Users\98991\AppData\Local\GitHubDesktop\bin;C:\Users\98991\AppData\Roaming\npm;C:\Users\98991\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\98991\AppData\Local\atom\bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -163,8 +161,6 @@ USERDOMAIN = LAPTOP-2OHR37KF
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := all
 # environment
@@ -209,19 +205,14 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
-.FEATURES := target-specific order-only second-expa 
-nsion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 PROCESSOR_REVISION = 8d01
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=8/141=6%
+# Load=98/1024=10%, Rehash=0, Collisions=8/137=6%
 
 # Pattern-specific Variable Values
 
@@ -248,7 +239,8 @@ img/generated/%.pdf: img/%.svg
 	inkscape --export-pdf=$@ $<
 
 pdf/%.tex: %.md
-#  recipe to execute (from 'Makefile', line 60):
+#  r 
+ecipe to execute (from 'Makefile', line 60):
 	node src/render_latex.js $< > $@
 
 epub/%.xhtml: %.md src/render_html.js
@@ -541,7 +533,8 @@ epub/hints.xhtml: src/extract_hints.js src/render_html.js
 
 # Not a target:
 code/solutions/04_4_deep_comparison.js:
-#  Implicit rule search has not been done.
+#  Implicit rule s 
+earch has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -732,8 +725,7 @@ book.epub: epub/titlepage.xhtml epub/toc.xhtml epub/hints.xhtml epub/content.opf
 	rm -f $@
 	grep '<img' epub/*.xhtml | sed -e 's/.*src="\([^"]*\)".*/\1/' | xargs -I{} rsync -R "{}" epub
 	node src/add_images_to_epub.js
-	 
-cd epub; zip -X ../$@ mimetype
+	cd epub; zip -X ../$@ mimetype
 	cd epub; zip -X ../$@ -r * -x mimetype -x *.src
 
 # Not a target:
@@ -744,7 +736,8 @@ code/solutions/12_3_comments.js:
 
 # Not a target:
 img/generated/unicycle.pdf:
-#  Implicit rule search has not been done.
+#  
+ Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -975,7 +968,8 @@ code/solutions/15_3_tabs.html:
 img/generated/controlflow-nested-if.pdf:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File has not been updated.
+#  File  
+has not been updated.
 
 # Not a target:
 img/generated/re_number.pdf:
@@ -1013,8 +1007,8 @@ pdf/book.tex:
 #  Modification time never checked.
 #  File has not been updated.
 
-html/js/chapter_info.js: code/solutions/02_1_looping_a_triangle.js code/solutions/02_2_fizzbuzz.js code/solutions/02_3_chessboard.js code/solutions/03_1_minimum.js code/solutions/03_2_recursion.js code/solutions/03_3_bean_counting.js code/solutions/04_1_the_sum_of_a_range.js code/solutions/04_2_reversing_an_array.js code/solutions/04_3_a_list.js code/solutions/04_4_deep_comparison.js code/solutions/05_1_flattening.js code/solutions/05_2_your_own_loop.js code/solutions/05_3_everything.js code/solutions/05_4_dominant_writing_direction.js code/solutions/06_1_a_vector_type.js code/solutions/06_2_groups.js code/solutions/06_3_iterable_groups.js code/solutions/06_4_borrowing_a_method.js code/solutions/07_1_measuring_a_robot.js code/solutions/07_2_robot_efficiency.js code/solutions/07_3_per 
-sistent_group.js code/solutions/08_1_retry.js code/solutions/08_2_the_locked_box.js code/solutions/09_1_regexp_golf.js code/solutions/09_2_quoting_style.js code/solutions/09_3_numbers_again.js code/solutions/10_2_roads_module.js code/solutions/11_1_tracking_the_scalpel.js code/solutions/11_2_building_promiseall.js code/solutions/12_1_arrays.js code/solutions/12_3_comments.js code/solutions/12_4_fixing_scope.js code/solutions/14_1_build_a_table.html code/solutions/14_2_elements_by_tag_name.html code/solutions/14_3_the_cats_hat.html code/solutions/15_1_balloon.html code/solutions/15_2_mouse_trail.html code/solutions/15_3_tabs.html code/solutions/16_1_game_over.html code/solutions/16_2_pausing_the_game.html code/solutions/16_3_a_monster.html code/solutions/17_1_shapes.html code/solutions/17_2_the_pie_chart.html code/solutions/17_3_a_bouncing_ball.html code/solutions/18_1_content_negotiation.js code/solutions/18_2_a_javascript_workbench.html code/solutions/18_3_conways_game_of_life.html code/solutions/19_1_keyboard_bindings.html code/solutions/19_2_efficient_drawing.html code/solutions/19_3_circles.html code/solutions/19_4_proper_lines.html code/solutions/20_1_search_tool.js code/solutions/20_2_directory_creation.js code/solutions/20_3_a_public_space_on_the_web code/solutions/21_1_disk_persistence.js code/solutions/21_2_comment_field_resets.js code/solutions/22_1_pathfinding.js code/solutions/22_2_timing.js code/solutions/22_3_optimizing.js src/chapter_info.js
+html/js/chapter_info.js: code/solutions/02_1_looping_a_triangle.js code/solutions/02_2_fizzbuzz.js code/solutions/02_3_chessboard.js code/solutions/03_1_minimum.js code/solutions/03_2_recursion.js code/solutions/03_3_bean_counting.js code/solutions/04_1_the_sum_of_a_range.js code/solutions/04_2_reversing_an_array.js code/solutions/04_3_a_list.js code/solutions/04_4_deep_comparison.js code/solutions/05_1_flattening.js code/solutions/05_2_your_own_loop.js code/solutions/05_3_everything.js code/solutions/05_4_dominant_writing_direction.js code/solutions/06_1_a_vector_type.js code/solutions/06_2_groups.js code/solutions/06_3_iterable_groups.js code/solutions/06_4_borrowing_a_method.js code/solutions/07_1_measuring_a_robot.js code/solutions/07_2_robot_efficiency.js code/solutions/07_3_persistent_group.js code/solutions/08_1_retry.js code/solutions/08_2_the_locked_box.js code/solutions/09_1_regexp_golf.js code/solutions/09_2_quoting_style.js code/solutions/09_3_numbers_again.js code/solutions/10_2_roads_module.js code/solutions/11_1_tracking_the_scalpel.js code/solutions/11_2_building_promiseall.js code/solutions/12_1_arrays.js code/solutions/12_3_comments.js code/solutions/12_4_fixing_scope.js code/solutions/14_1_build_a_table.html code/solutions/14_2_elements_by_tag_name.html code/solutions/14_3_the_cats_hat.html code/solutions/15_1_balloon.html code/solutions/15_2_mouse_trail.html code/solutions/15_3_tabs.html code/solutions/16_1_game_over.html code/solutions/16_2_pausing_the_game.html code/solutions/16_3_a_monster.html code/solutions/17_1_shapes.html code/solutions/17 
+_2_the_pie_chart.html code/solutions/17_3_a_bouncing_ball.html code/solutions/18_1_content_negotiation.js code/solutions/18_2_a_javascript_workbench.html code/solutions/18_3_conways_game_of_life.html code/solutions/19_1_keyboard_bindings.html code/solutions/19_2_efficient_drawing.html code/solutions/19_3_circles.html code/solutions/19_4_proper_lines.html code/solutions/20_1_search_tool.js code/solutions/20_2_directory_creation.js code/solutions/20_3_a_public_space_on_the_web code/solutions/21_1_disk_persistence.js code/solutions/21_2_comment_field_resets.js code/solutions/22_1_pathfinding.js code/solutions/22_2_timing.js code/solutions/22_3_optimizing.js src/chapter_info.js
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1033,8 +1027,7 @@ code/solutions/20_3_a_public_space_on_the_web/other.html:
 
 # No 'vpath' search paths.
 
-# No general ('VPATH' variable) search path. 
-
+# No general ('VPATH' variable) search path.
 
 # strcache buffers: 1 (0) / strings = 339 / storage = 7736 B / avg = 22 B
 # current buf: size = 8174 B / used = 7736 B / count = 339 / avg = 22 B
@@ -1042,6 +1035,7 @@ code/solutions/20_3_a_public_space_on_the_web/other.html:
 # strcache performance: lookups = 394 / hit rate = 13%
 # hash-table stats:
 # Load=339/8192=4%, Rehash=0, Collisions=12/394=3%
-# Finished Make data base on Sat Jul 16 13:21:24 2022
+# Finished  
+Make data base on Mon Jul 18 23:04:30 2022
 
  

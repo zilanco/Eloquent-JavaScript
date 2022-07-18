@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/intro.js"]}}}
 
-# Introduction
+# پێشەکی
 
 {{quote {author: "Ellen Ullman", title: "Close to the Machine: Technophilia and its Discontents", chapter: true}
 
@@ -59,7 +59,7 @@ available on almost every device.
 This book will try to make you familiar enough with this language to
 do useful and amusing things with it.
 
-## On programming
+## لەسەر بەرنامەسازی
 
 {{index [programming, "difficulty of"]}}
 
@@ -143,7 +143,7 @@ program design, and you should go ahead and make them so that you
 understand them. A sense of what a good program looks like is
 developed in practice, not learned from a list of rules.
 
-## Why language matters
+## بۆچی زمان گرنگە
 
 {{index "programming language", "machine code", "binary data"}}
 
@@ -291,7 +291,7 @@ level. It helps omit details, provides convenient building blocks
 building blocks (such as `sum` and `range`), and makes those blocks
 easy to compose.
 
-## What is JavaScript?
+## جاڤاسکڕێپت چییە؟
 
 {{index history, Netscape, browser, "web application", JavaScript, [JavaScript, "history of"], "World Wide Web"}}
 
@@ -380,7 +380,7 @@ programming, most notably the ((Node.js)) project (the subject of
 [Chapter ?](node)), provide an environment for programming JavaScript
 outside of the browser.
 
-## Code, and what to do with it
+## کۆد، وە چی بکەین لەگەڵی
 
 {{index "reading code", "writing code"}}
 
@@ -435,7 +435,7 @@ each other or on external files. The
 links to Zip files containing all the scripts and data files
 necessary to run the code for a given chapter.
 
-## Overview of this book
+## تێڕوانینێکی گشتی لە ئەم کتێبە
 
 This book contains roughly three parts. The first 12 chapters discuss
 the JavaScript language. The next seven chapters are about web
@@ -484,7 +484,7 @@ come up when optimizing JavaScript programs for speed.
 
 if}}
 
-## Typographic conventions
+## ڕێکەوتننامەکانی تایپۆگرافی
 
 {{index "factorial function"}}
 
