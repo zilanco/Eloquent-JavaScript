@@ -212,7 +212,7 @@ that block in the program text. Each local scope can also see all the
 local scopes that contain it, and all scopes can see the global scope.
 This approach to binding visibility is called _((lexical scoping))_.
 
-## Functions as values
+## فەنکشنێک وەک بەها
 
 {{index [function, "as value"], [binding, definition]}}
 
@@ -243,7 +243,7 @@ if (safeMode) {
 In [Chapter ?](higher_order), we will discuss the interesting things
 that can be done by passing around function values to other functions.
 
-## Declaration notation
+## بەیاننامەی تێبینی
 
 {{index [syntax, function], "function keyword", "square example", [function, definition], [function, declaration]}}
 
@@ -281,7 +281,7 @@ sometimes useful because it offers the freedom to order code in a
 way that seems meaningful, without worrying about having to define all
 functions before they are used.
 
-## Arrow functions
+## فەنکشنێ تیر
 
 {{index function, "arrow function"}}
 
