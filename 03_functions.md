@@ -928,7 +928,7 @@ are often useful. There'd be no way to write a pure version of
 operations are also easier to express in an efficient way when we use
 side effects, so computing speed can be a reason to avoid purity.
 
-## Summary
+## کورتە
 
 This chapter taught you how to write your own functions. The
 `function` keyword, when used as an expression, can create a function
@@ -962,9 +962,9 @@ helpful. You won't have to repeat yourself as much, and functions can
 help organize a program by grouping code into pieces that do specific
 things.
 
-## Exercises
+## ڕاهێنانەکان
 
-### Minimum
+### کەمترین
 
 {{index "Math object", "minimum (exercise)", "Math.min function", minimum}}
 
@@ -999,7 +999,7 @@ A function may contain multiple `return` statements.
 
 hint}}
 
-### Recursion
+### دووبارەبوونەوە
 
 {{index recursion, "isEven (exercise)", "even number"}}
 
@@ -1060,7 +1060,7 @@ run out of stack space and abort.
 
 hint}}
 
-### Bean counting
+### ژماردنی پاقلە
 
 {{index "bean counting (exercise)", [string, indexing], "zero-based counting", ["length property", "for string"]}}
 
