@@ -578,7 +578,7 @@ the `!` operator will convert a value to Boolean type before negating
 it, and all strings except `""` convert to `true`. This means the loop
 continues going round until you provide a non-empty name.
 
-## Indenting Code
+## کۆدی ئیندێنتینگ
 
 {{index [code, "structure of"], [whitespace, indentation], "programming style"}}
 
@@ -610,7 +610,7 @@ Most code ((editor)) programs[ (including the one in this book)]{if
 interactive} will help by automatically indenting new lines the proper
 amount.
 
-## for loops
+## ئەڵقە فورەکان
 
 {{index [syntax, statement], "while loop", "counter variable"}}
 
@@ -664,7 +664,7 @@ console.log(result);
 // → 1024
 ```
 
-## Breaking Out of a Loop
+## دەرچوون لە ئەڵقەیەک
 
 {{index [loop, "termination of"], "break keyword"}}
 
@@ -718,7 +718,7 @@ the progress of a loop. When `continue` is encountered in a loop body,
 control jumps out of the body and continues with the loop's next
 iteration.
 
-## Updating bindings succinctly
+## بەڕۆژکردنەوەی بەستنەوەکان بە کورتی
 
 {{index assignment, "+= operator", "-= operator", "/= operator", "*= operator", [state, in binding], "side effect"}}
 
@@ -751,7 +751,7 @@ for (let number = 0; number <= 12; number += 2) {
 For `counter += 1` and `counter -= 1`, there are even shorter
 equivalents: `counter++` and `counter--`.
 
-## Dispatching on a value with switch
+## ناردن لەسەر بەها لەگەڵ سویچ
 
 {{index [syntax, statement], "conditional execution", dispatch, ["if keyword", chaining]}}
 
