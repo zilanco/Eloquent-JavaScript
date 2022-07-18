@@ -887,7 +887,7 @@ Resist that urge. You won't get any real work done—you'll just be
 writing code that you never use.
 
 {{id pure}}
-## Functions and side effects
+## فەنکشنکان و کاریگەرییە لاوەکییەکانی
 
 {{index "side effect", "pure function", [function, purity]}}
 
