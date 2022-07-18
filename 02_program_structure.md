@@ -234,7 +234,7 @@ that provide ways to interact with the surrounding system. For
 example, in a browser, there are functions to interact with the
 currently loaded website and to read ((mouse)) and ((keyboard)) input.
 
-## Functions
+## فەنکشنکان
 
 {{indexsee "application (of functions)", [function, application]}}
 {{indexsee "invoking (of functions)", [function, application]}}
@@ -270,7 +270,7 @@ The `prompt` function isn't used much in modern web programming,
 mostly because you have no control over the way the resulting dialog
 looks, but can be helpful in toy programs and experiments.
 
-## The console.log function
+## فەنکشنی console.log
 
 {{index "JavaScript console", "developer tools", "Node.js", "console.log", output, [browser, environment]}}
 
@@ -306,7 +306,7 @@ property from the value held by the `console` binding. We'll
 find out exactly what this means in [Chapter ?](data#properties).
 
 {{id return_values}}
-## Return values
+## بەهاکان بگەڕێنەرەوە
 
 {{index [comparison, "of numbers"], "return value", "Math.max function", maximum}}
 
@@ -338,7 +338,7 @@ console.log(Math.min(2, 4) + 100);
 The [next chapter](functions) explains how to write your own
 functions.
 
-## Control flow
+## لێشاوی کۆنترۆڵ
 
 {{index "execution order", program, "control flow"}}
 
@@ -366,7 +366,7 @@ control flow:
 
 {{figure {url: "img/controlflow-straight.svg", alt: "Trivial control flow", width: "4cm"}}}
 
-## Conditional execution
+## جێبەجێکردنی مەرجدار
 
 {{index Boolean, ["control flow", conditional]}}
 
