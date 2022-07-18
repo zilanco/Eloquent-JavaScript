@@ -1,4 +1,4 @@
-# Program Structure
+# پێکهاتەی بەرنامە
 
 {{quote {author: "_why", title: "Why's (Poignant) Guide to Ruby", chapter: true}
 
@@ -79,7 +79,7 @@ in this book, every statement that needs a semicolon will always get
 one. I recommend you do the same, at least until you've learned more
 about the subtleties of missing semicolons.
 
-## Bindings
+## بەستنەوەکان
 
 {{indexsee variable, binding}}
 {{index [syntax, statement], [binding, definition], "side effect", [memory, organization], [state, in binding]}}
@@ -191,7 +191,7 @@ binding, which points at the same value for as long as it lives. This
 is useful for bindings that give a name to a value so that you can
 easily refer to it later.
 
-## Binding names
+## ناوەکانی بەستنەوەی
 
 {{index "underscore character", "dollar sign", [binding, naming]}}
 
@@ -222,7 +222,7 @@ Don't worry about memorizing this list. When creating a binding produces
 an unexpected syntax error, see whether you're trying to define a
 reserved word.
 
-## The environment
+## ژینگە
 
 {{index "standard environment", [browser, environment]}}
 
