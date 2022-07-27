@@ -11,7 +11,7 @@ make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', ne
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 18 23:04:30 2022
+# Make data base, printed on Wed Jul 27 22:59:58 2022
 
 # Variables
 
@@ -36,13 +36,13 @@ SYSTEMROOT = C:\Windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12160_FUUYTPFCKHKYWJCV
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23132_XKHUHSHDJELXAOKF
 # makefile (from 'Makefile', line 3)
 SVGS := img/control-io.svg img/controlflow-else.svg img/controlflow-if.svg img/controlflow-loop.svg img/controlflow-nested-if.svg img/controlflow-straight.svg img/cos_sin.svg img/flood-grid.svg img/game-grid.svg img/html-boxes.svg img/html-links.svg img/html-tree.svg img/line-grid.svg img/linked-list.svg img/mirror.svg img/pizza-squirrel.svg img/rabbits.svg img/re_number.svg img/re_pigchickens.svg img/re_slow.svg img/syntax_tree.svg img/transform.svg img/unicycle.svg img/weresquirrel.svg
 # environment
@@ -58,7 +58,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\98991\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+VSCODE_CODE_CACHE_PATH = C:\Users\98991\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
 LANG = C
 # default
@@ -94,7 +94,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 12160
+VSCODE_PID = 23132
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -126,7 +126,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;%NVM_HOME%;%NVM_SYMLINK%;C:\ProgramData\chocolatey\bin;C:\Users\98991\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\98991\AppData\Local\Programs\Python\Python310\;C:\Users\98991\AppData\Local\Microsoft\WindowsApps;C:\Users\98991\AppData\Local\GitHubDesktop\bin;C:\Users\98991\AppData\Roaming\npm;C:\Users\98991\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\98991\AppData\Local\atom\bin
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\98991\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\98991\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\98991\AppData\Local\Programs\Python\Python310\;C:\Users\98991\AppData\Local\Microsoft\WindowsApps;C:\Users\98991\AppData\Local\GitHubDesktop\bin;C:\Users\98991\AppData\Roaming\npm;C:\Users\98991\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\98991\AppData\Local\atom\bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -194,7 +194,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\98991\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\48c12812f43b22bd557849998d84da0b-1.69.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\48c12812f43b22bd557849998d84da0b-1.69.2-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -220,7 +220,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
 
 # Directories
 
-# . (key e:/projects/web/reactJS/2022/Eloquent-JavaScript, mtime 1657958870): 38 files, no impossibilities.
+# . (key e:/projects/web/reactJS/2022/Eloquent-JavaScript, mtime 1658297490): 38 files, no impossibilities.
 # img (key e:/projects/web/reactJS/2022/Eloquent-JavaScript/img, mtime 1657958870): 111 files, no impossibilities.
 # code/solutions (key e:/projects/web/reactJS/2022/Eloquent-JavaScript/code/solutions, mtime 1657958870): 61 files, no impossibilities.
 # code/solutions/20_3_a_public_space_on_the_web (key e:/projects/web/reactJS/2022/Eloquent-JavaScript/code/solutions/20_3_a_public_space_on_the_web, mtime 1657958870): 5 files, no impossibilities.
@@ -239,8 +239,7 @@ img/generated/%.pdf: img/%.svg
 	inkscape --export-pdf=$@ $<
 
 pdf/%.tex: %.md
-#  r 
-ecipe to execute (from 'Makefile', line 60):
+#  recipe to execute (from 'Makefile', line 60):
 	node src/render_latex.js $< > $@
 
 epub/%.xhtml: %.md src/render_html.js
@@ -463,7 +462,8 @@ code/solutions/17_2_the_pie_chart.html:
 #  Modification time never checked.
 #  File has not been updated.
 
-tex: pdf/hints.tex img/generated/control-io.pdf img/generated/controlflow-else.pdf img/generated/controlflow-if.pdf img/generated/controlflow-loop.pdf img/generated/controlflow-nested-if.pdf img/generated/controlflow-straight.pdf img/generated/cos_sin.pdf img/generated/flood-grid.pdf img/generated/game-grid.pdf img/generated/html-boxes.pdf img/generated/html-links.pdf img/generated/html-tree.pdf img/generated/line-grid.pdf img/generated/linked-list.pdf img/generated/mirror.pdf img/generated/pizza-squirrel.pdf img/generated/rabbits.pdf img/generated/re_number.pdf img/generated/re_pigchickens.pdf img/generated/re_slow.pdf img/generated/syntax_tree.pdf img/generated/transform.pdf img/generated/unicycle.pdf img/generated/weresquirrel.pdf
+tex: pdf/hints.tex img/generated/control-io.pdf img/generated/controlflow-else.pdf img/generated/controlflow-if.pdf img/generated/controlflow-loop.pdf img/generated/controlflow-nested-if.pdf img/generated/controlflow-straight.pdf img/generated/cos_sin.pdf img/generated/flood-grid.pdf img/generated/game-grid.pdf img/generated/html-boxes.pdf img/generated/html-links.pdf img/generated/html-tree.pdf img/generated/line-grid.pdf im 
+g/generated/linked-list.pdf img/generated/mirror.pdf img/generated/pizza-squirrel.pdf img/generated/rabbits.pdf img/generated/re_number.pdf img/generated/re_pigchickens.pdf img/generated/re_slow.pdf img/generated/syntax_tree.pdf img/generated/transform.pdf img/generated/unicycle.pdf img/generated/weresquirrel.pdf
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -533,8 +533,7 @@ epub/hints.xhtml: src/extract_hints.js src/render_html.js
 
 # Not a target:
 code/solutions/04_4_deep_comparison.js:
-#  Implicit rule s 
-earch has not been done.
+#  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -736,8 +735,7 @@ code/solutions/12_3_comments.js:
 
 # Not a target:
 img/generated/unicycle.pdf:
-#  
- Implicit rule search has not been done.
+#  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -968,8 +966,7 @@ code/solutions/15_3_tabs.html:
 img/generated/controlflow-nested-if.pdf:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File  
-has not been updated.
+#  File has not been updated.
 
 # Not a target:
 img/generated/re_number.pdf:
@@ -1007,8 +1004,7 @@ pdf/book.tex:
 #  Modification time never checked.
 #  File has not been updated.
 
-html/js/chapter_info.js: code/solutions/02_1_looping_a_triangle.js code/solutions/02_2_fizzbuzz.js code/solutions/02_3_chessboard.js code/solutions/03_1_minimum.js code/solutions/03_2_recursion.js code/solutions/03_3_bean_counting.js code/solutions/04_1_the_sum_of_a_range.js code/solutions/04_2_reversing_an_array.js code/solutions/04_3_a_list.js code/solutions/04_4_deep_comparison.js code/solutions/05_1_flattening.js code/solutions/05_2_your_own_loop.js code/solutions/05_3_everything.js code/solutions/05_4_dominant_writing_direction.js code/solutions/06_1_a_vector_type.js code/solutions/06_2_groups.js code/solutions/06_3_iterable_groups.js code/solutions/06_4_borrowing_a_method.js code/solutions/07_1_measuring_a_robot.js code/solutions/07_2_robot_efficiency.js code/solutions/07_3_persistent_group.js code/solutions/08_1_retry.js code/solutions/08_2_the_locked_box.js code/solutions/09_1_regexp_golf.js code/solutions/09_2_quoting_style.js code/solutions/09_3_numbers_again.js code/solutions/10_2_roads_module.js code/solutions/11_1_tracking_the_scalpel.js code/solutions/11_2_building_promiseall.js code/solutions/12_1_arrays.js code/solutions/12_3_comments.js code/solutions/12_4_fixing_scope.js code/solutions/14_1_build_a_table.html code/solutions/14_2_elements_by_tag_name.html code/solutions/14_3_the_cats_hat.html code/solutions/15_1_balloon.html code/solutions/15_2_mouse_trail.html code/solutions/15_3_tabs.html code/solutions/16_1_game_over.html code/solutions/16_2_pausing_the_game.html code/solutions/16_3_a_monster.html code/solutions/17_1_shapes.html code/solutions/17 
-_2_the_pie_chart.html code/solutions/17_3_a_bouncing_ball.html code/solutions/18_1_content_negotiation.js code/solutions/18_2_a_javascript_workbench.html code/solutions/18_3_conways_game_of_life.html code/solutions/19_1_keyboard_bindings.html code/solutions/19_2_efficient_drawing.html code/solutions/19_3_circles.html code/solutions/19_4_proper_lines.html code/solutions/20_1_search_tool.js code/solutions/20_2_directory_creation.js code/solutions/20_3_a_public_space_on_the_web code/solutions/21_1_disk_persistence.js code/solutions/21_2_comment_field_resets.js code/solutions/22_1_pathfinding.js code/solutions/22_2_timing.js code/solutions/22_3_optimizing.js src/chapter_info.js
+html/js/chapter_info.js: code/solutions/02_1_looping_a_triangle.js code/solutions/02_2_fizzbuzz.js code/solutions/02_3_chessboard.js code/solutions/03_1_minimum.js code/solutions/03_2_recursion.js code/solutions/03_3_bean_counting.js code/solutions/04_1_the_sum_of_a_range.js code/solutions/04_2_reversing_an_array.js code/solutions/04_3_a_list.js code/solutions/04_4_deep_comparison.js code/solutions/05_1_flattening.js code/solutions/05_2_your_own_loop.js code/solutions/05_3_everything.js code/solutions/05_4_dominant_writing_direction.js code/solutions/06_1_a_vector_type.js code/solutions/06_2_groups.js code/solutions/06_3_iterable_groups.js code/solutions/06_4_borrowing_a_method.js code/solutions/07_1_measuring_a_robot.js code/solutions/07_2_robot_efficiency.js code/solutions/07_3_persistent_group.js code/solutions/08_1_retry.js code/solutions/08_2_the_locked_box.js code/solutions/09_1_regexp_golf.js code/solutions/09_2_quoting_style.js code/solutions/09_3_numbers_again.js code/solutions/10_2_roads_module.js code/solutions/11_1_tracking_the_scalpel.js code/solutions/11_2_building_promiseall.js code/solutions/12_1_arrays.js code/solutions/12_3_comments.js code/solutions/12_4_fixing_scope.js code/solutions/14_1_build_a_table.html code/solutions/14_2_elements_by_tag_name.html code/solutions/14_3_the_cats_hat.html code/solutions/15_1_balloon.html code/solutions/15_2_mouse_trail.html code/solutions/15_3_tabs.html code/solutions/16_1_game_over.html code/solutions/16_2_pausing_the_game.html code/solutions/16_3_a_monster.html code/solutions/17_1_shapes.html code/solutions/17_2_the_pie_chart.html code/solutions/17_3_a_bouncing_ball.html code/solutions/18_1_content_negotiation.js code/solutions/18_2_a_javascript_workbench.html code/solutions/18_3_conways_game_of_life.html code/solutions/19_1_keyboard_bindings.html code/solutions/19_2_efficient_drawing.html code/solutions/19_3_circles.html code/solutions/19_4_proper_lines.html code/solutions/20_1_search_tool.js code/solutions/20_2_directory_creation.js code/solutions/20_3_a_public_space_on_the_web code/solutions/21_1_disk_persistence.js code/solutions/21_2_comment_field_resets.js code/solutions/22_1_pathfinding.js code/solutions/22_2_timing.js code/solutions/22_3_optimizing.js src/chapter_info.js
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1035,7 +1031,6 @@ code/solutions/20_3_a_public_space_on_the_web/other.html:
 # strcache performance: lookups = 394 / hit rate = 13%
 # hash-table stats:
 # Load=339/8192=4%, Rehash=0, Collisions=12/394=3%
-# Finished  
-Make data base on Mon Jul 18 23:04:30 2022
+# Finished Make data base on Wed Jul 27 22:59:58 2022
 
  

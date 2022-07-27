@@ -5,19 +5,12 @@ process_begin: CreateProcess(NULL, ls [0-9][0-9]_*.md, ...) failed.
 Makefile:1: pipe: No error
 
 make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', needed by 'html/js/acorn_codemirror.js'.
-
 make: *** No rule to make target 'node_modules/codemirror/mode/javascript/javascript.js', needed by 'html/js/acorn_codemirror.js'.
-
 make: *** No rule to make target 'node_modules/codemirror/mode/css/css.js', needed by 'html/js/acorn_codemirror.js'.
-
 make: *** No rule to make target 'node_modules/codemirror/mode/xml/xml.js', needed by 'html/js/acorn_codemirror.js'.
-
 make: *** No rule to make target 'node_modules/codemirror/mode/htmlmixed/htmlmixed.js', needed by 'html/js/acorn_codemirror.js'.
-
 make: *** No rule to make target 'node_modules/codemirror/addon/edit/matchbrackets.js', needed by 'html/js/acorn_codemirror.js'.
-
 make: *** No rule to make target 'node_modules/acorn/dist/acorn.js', needed by 'html/js/acorn_codemirror.js'.
-
 make: *** No rule to make target 'node_modules/acorn/dist/walk.js', needed by 'html/js/acorn_codemirror.js'.
 
 node src/render_html.js 21_skillsharing.md > html/21_skillsharing.html

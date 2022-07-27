@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/journal.js", "code/chapter/04_data.js"], zip: "node/html"}}}
 
-# Data Structures: Objects and Arrays
+# پێکهاتەکانی داتا: ئۆبجێکتەکان و ڕیزەکان
 
 {{quote {author: "Charles Babbage", title: "Passages from the Life of a Philosopher (1864)", chapter: true}
 
@@ -43,7 +43,7 @@ page.
 
 if}}
 
-## The weresquirrel
+## سمۆرەکە
 
 {{index "weresquirrel example", lycanthropy}}
 
@@ -77,7 +77,7 @@ trigger the transformations.
 The first thing he needs is a data structure to store this
 information.
 
-## Data sets
+## کۆمەڵە داتاکان
 
 {{index ["data structure", collection], [memory, organization]}}
 
@@ -127,7 +127,7 @@ items to skip, counting from the start of the array.
 
 {{id properties}}
 
-## Properties
+## تایبەتمەندیەکان
 
 {{index "Math object", "Math.max function", ["length property", "for string"], [object, property], "period character", [property, access]}}
 
