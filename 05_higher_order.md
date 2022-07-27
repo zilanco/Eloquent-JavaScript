@@ -757,7 +757,7 @@ of characters that belong to a script, which we can compute with
 specific string. Otherwise, it transforms the counting entries into
 readable strings with `map` and then combines them with `join`.
 
-## Summary
+## کورتە
 
 Being able to pass function values to other functions is a deeply
 useful aspect of JavaScript. It allows us to write functions that
@@ -774,9 +774,9 @@ tests whether any element matches a given predicate function. And
 `findIndex` finds the position of the first element that matches a
 predicate.
 
-## Exercises
+## ڕاهێنانەکان
 
-### Flattening
+### تەختکردن
 
 {{index "flattening (exercise)", "reduce method", "concat method", [array, flattening]}}
 
@@ -793,7 +793,7 @@ let arrays = [[1, 2, 3], [4, 5], [6]];
 ```
 if}}
 
-### Your own loop
+### ئەڵقەکەی خۆت
 
 {{index "your own loop (example)", "for loop"}}
 
@@ -821,7 +821,7 @@ loop(3, n => n > 0, n => n - 1, console.log);
 
 if}}
 
-### Everything
+### هەموو شتێک
 
 {{index "predicate function", "everything (exercise)", "every method", "some method", [array, methods], "&& operator", "|| operator"}}
 
@@ -870,7 +870,7 @@ is no element in the array that does not match.
 
 hint}}
 
-### Dominant writing direction
+### ئاراستەی نووسینی باڵادەست
 
 {{index "SCRIPTS data set", "direction (writing)", "groupBy function", "dominant direction (exercise)"}}
 
