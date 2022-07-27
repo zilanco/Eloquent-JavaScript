@@ -1334,7 +1334,7 @@ You can iterate over arrays using a special kind of `for` loop—`for
 
 ## ڕاهێنانەکان
 
-### The sum of a range
+### کۆی مەودایەک
 
 {{index "summing (exercise)"}}
 
@@ -1414,7 +1414,7 @@ parameters in the default value of a parameter.
 
 hint}}
 
-### Reversing an array
+### پێچەوانەکردنەوەی ریزبەندێک
 
 {{index "reversing (exercise)", "reverse method", [array, methods]}}
 
@@ -1480,7 +1480,7 @@ hint}}
 
 {{id list}}
 
-### A list
+### لیستێک
 
 {{index ["data structure", list], "list (exercise)", "linked list", array, collection}}
 
@@ -1585,7 +1585,7 @@ hint}}
 
 {{id exercise_deep_compare}}
 
-### Deep comparison
+### بەراوردی قووڵ
 
 {{index "deep comparison (exercise)", [comparison, deep], "deep comparison", "== operator"}}
 
