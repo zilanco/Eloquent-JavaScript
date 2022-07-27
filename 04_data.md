@@ -1310,7 +1310,7 @@ console.log(JSON.parse(string).events);
 // → ["weekend"]
 ```
 
-## Summary
+## کورتە
 
 Objects and arrays (which are a specific kind of object) provide ways
 to group several values into a single value. Conceptually, this allows
@@ -1332,7 +1332,7 @@ number of methods. Methods are functions that live in properties and
 You can iterate over arrays using a special kind of `for` loop—`for
 (let element of array)`.
 
-## Exercises
+## ڕاهێنانەکان
 
 ### The sum of a range
 
