@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/scripts.js", "code/chapter/05_higher_order.js", "code/intro.js"], zip: "node/html"}}}
 
-# Higher-Order Functions
+# فەنکشنێ ڕێکخستنی بەرز
 
 {{if interactive
 
@@ -78,7 +78,7 @@ will still involve loops, counters, and other incidental details. But
 because they are expressing simpler concepts than the program as a
 whole, they are easier to get right.
 
-## Abstraction
+## ئەبستراک
 
 In the context of programming, these kinds of vocabularies are usually
 called _((abstraction))s_. Abstractions hide details and give us the
@@ -131,7 +131,7 @@ one by one, blind to the higher-level concepts that they express.
 It is a useful skill, in programming, to notice when you are working
 at too low a level of abstraction.
 
-## Abstracting repetition
+## دووبارەکردنەوەی ئەبستراکت
 
 {{index [array, iteration]}}
 
