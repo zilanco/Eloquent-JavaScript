@@ -1193,7 +1193,7 @@ up to a whole number), `Math.round` (to the nearest whole number), and
 `Math.abs`, which takes the absolute value of a number, meaning it
 negates negative values but leaves positive ones as they are.
 
-## Destructuring
+## وێرانکردن
 
 {{index "phi function"}}
 
@@ -1248,7 +1248,7 @@ Note that if you try to destructure `null` or `undefined`, you get an
 error, much as you would if you directly try to access a property
 of those values.
 
-## JSON
+## جەی سۆن
 
 {{index [array, representation], [object, representation], "data format", [memory, organization]}}
 
