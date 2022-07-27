@@ -185,7 +185,7 @@ advance, so to find the length of an array, you typically write
 
 {{id methods}}
 
-## Methods
+## شێوازەکان
 
 {{index [function, "as property"], method, string}}
 
@@ -250,7 +250,7 @@ These are common in programming—you might remember the function ((call
 stack)) from [the previous chapter](functions#stack), which is an
 instance of the same idea.
 
-## Objects
+## ئۆبجێکتەکان
 
 {{index journal, "weresquirrel example", array, record}}
 
@@ -399,7 +399,7 @@ let journal = [
 ];
 ```
 
-## Mutability
+## گۆڕانکاری
 
 We will get to actual programming _real_ soon now. First there's one
 more piece of theory to understand.
