@@ -406,7 +406,7 @@ console.log(map(rtlScripts, s => s.name));
 
 Like `forEach` and `filter`, `map` is a standard array method.
 
-## Summarizing with reduce
+## پوختەکردن لەگەڵ کەمکردنەوە
 
 {{index [array, methods], "summing example", "reduce method"}}
 
@@ -489,7 +489,7 @@ decided to treat them as a single writing system to save
 character codes. This is called _Han unification_ and still makes some
 people very angry.
 
-## Composability
+## پێکهاتەسازی
 
 {{index loop, maximum}}
 
@@ -568,7 +568,7 @@ numbers, doing less work. You can usually afford the readable
 approach, but if you're processing huge arrays, and doing so many
 times, the less abstract style might be worth the extra speed.
 
-## Strings and character codes
+## سترینگەکان و کۆدی پیتەکان
 
 {{index "SCRIPTS data set"}}
 
@@ -676,7 +676,7 @@ for (let char of roseDragon) {
 If you have a character (which will be a string of one or two code
 units), you can use `codePointAt(0)` to get its code.
 
-## Recognizing text
+## ناسینەوەی دەق
 
 {{index "SCRIPTS data set", "countBy function", [array, counting]}}
 
