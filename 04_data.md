@@ -1030,7 +1030,7 @@ console.log(string[1]);
 
 {{id rest_parameters}}
 
-## Rest parameters
+## پارامیتەرەکانی پشوو
 
 {{index "Math.max function"}}
 
@@ -1086,7 +1086,7 @@ console.log(["will", ...words, "understand"]);
 // → ["will", "never", "fully", "understand"]
 ```
 
-## The Math object
+## ئۆبجێکتی بیرکاری
 
 {{index "Math object", "Math.min function", "Math.max function", "Math.sqrt function", minimum, maximum, "square root"}}
 
