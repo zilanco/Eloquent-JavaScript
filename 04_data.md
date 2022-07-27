@@ -478,7 +478,7 @@ operation built into JavaScript, which compares objects by contents,
 but it is possible to write it yourself (which is one of the
 [exercises](data#exercise_deep_compare) at the end of this chapter).
 
-## The lycanthrope's log
+## لۆگی لیکانثرۆپ
 
 {{index "weresquirrel example", lycanthropy, "addEntry function"}}
 
@@ -594,7 +594,7 @@ html}[[$\sqrt{340000}$]{latex}]{if tex}. This comes out to _ϕ_ ≈
 0.069, which is tiny. Eating ((pizza)) does not appear to have
 influence on the transformations.
 
-## Computing correlation
+## پەیوەندی ژماردن
 
 {{index [array, "as table"], [nesting, "of arrays"]}}
 
@@ -694,7 +694,7 @@ event that was recorded and see whether anything stands out.
 
 {{id for_of_loop}}
 
-## Array loops
+## ئەڵقەکانی ڕیزبەندی
 
 {{index "for loop", loop, [array, iteration]}}
 
