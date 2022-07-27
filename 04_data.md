@@ -730,7 +730,7 @@ other data structures. We'll discuss _how_ it works in [Chapter
 
 {{id analysis}}
 
-## The final analysis
+## شیکردنەوەی کۆتایی
 
 {{index journal, "weresquirrel example", "journalEvents function"}}
 
@@ -834,7 +834,7 @@ One day, fed up with this pitiful existence, Jacques fails to change
 back into his human form, hops through a crack in the circus tent, and
 vanishes into the forest. He is never seen again.
 
-## Further arrayology
+## ڕیزبەندی زیاتر
 
 {{index [array, methods], [method, array]}}
 
@@ -928,7 +928,7 @@ console.log(remove(["a", "b", "c", "d", "e"], 2));
 If you pass `concat` an argument that is not an array, that value will
 be added to the new array as if it were a one-element array.
 
-## Strings and their properties
+## ڕیزەکان و تایبەتمەندیەکانیان
 
 {{index [string, properties]}}
 
