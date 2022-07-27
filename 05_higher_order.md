@@ -203,7 +203,7 @@ brace _and_ closing parenthesis. In cases like this example, where the
 body is a single small expression, you could also omit the
 braces and write the loop on a single line.
 
-## Higher-order functions
+## فەنکشنێ ڕێکخستنی بەرز
 
 {{index [function, "higher-order"], [function, "as value"]}}
 
@@ -273,7 +273,7 @@ like a `for`/`of` loop as a higher-order function.
 // → B
 ```
 
-## Script data set
+## کۆمەڵە داتاکانی سکریپت
 
 One area where higher-order functions shine is data processing. To process data, we'll need some actual data. This chapter will
 use a ((data set)) about scripts—((writing system))s such as Latin,
@@ -328,7 +328,7 @@ and an upper bound. Any character codes within these ranges are assigned
 to the script. The lower ((bound)) is inclusive (code 994 is a Coptic
 character), and the upper bound is non-inclusive (code 1008 isn't).
 
-## Filtering arrays
+## پاڵێوکردنی ڕیزبەندییەکان
 
 {{index [array, methods], [array, filtering], "filter method", [function, "higher-order"], "predicate function"}}
 
@@ -375,7 +375,7 @@ console.log(SCRIPTS.filter(s => s.direction == "ttb"));
 
 {{id map}}
 
-## Transforming with map
+## گۆڕانکاری بە نەخشە
 
 {{index [array, methods], "map method"}}
 
