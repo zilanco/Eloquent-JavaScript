@@ -614,7 +614,7 @@ circumstances, the problem may occur so rarely that it is never even
 noticed. Whether that is a good thing or a really bad thing depends on
 how much damage the software will do when it fails.
 
-## Selective catching
+## گرتنی هەڵبژێردراو
 
 {{index "uncaught exception", "exception handling", "JavaScript console", "developer tools", "call stack", error}}
 
@@ -760,7 +760,7 @@ This will catch only instances of `InputError` and let unrelated
 exceptions through. If you reintroduce the typo, the undefined binding
 error will be properly reported.
 
-## Assertions
+## دووپاتکردنەوەکان
 
 {{index "assert function", assertion, debugging}}
 
