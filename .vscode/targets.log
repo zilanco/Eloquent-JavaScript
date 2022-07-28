@@ -11,7 +11,7 @@ make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', ne
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jul 27 22:59:58 2022
+# Make data base, printed on Thu Jul 28 22:53:41 2022
 
 # Variables
 
@@ -42,7 +42,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23132_XKHUHSHDJELXAOKF
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12948_LTGTSLWZFDIJSYTC
 # makefile (from 'Makefile', line 3)
 SVGS := img/control-io.svg img/controlflow-else.svg img/controlflow-if.svg img/controlflow-loop.svg img/controlflow-nested-if.svg img/controlflow-straight.svg img/cos_sin.svg img/flood-grid.svg img/game-grid.svg img/html-boxes.svg img/html-links.svg img/html-tree.svg img/line-grid.svg img/linked-list.svg img/mirror.svg img/pizza-squirrel.svg img/rabbits.svg img/re_number.svg img/re_pigchickens.svg img/re_slow.svg img/syntax_tree.svg img/transform.svg img/unicycle.svg img/weresquirrel.svg
 # environment
@@ -94,7 +94,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 23132
+VSCODE_PID = 12948
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -438,7 +438,8 @@ code/solutions/15_1_balloon.html:
 #  File has not been updated.
 
 # Not a target:
-code/solutions/03_3_bean_counting.js:
+code/solutions/03_3_b 
+ean_counting.js:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -462,8 +463,7 @@ code/solutions/17_2_the_pie_chart.html:
 #  Modification time never checked.
 #  File has not been updated.
 
-tex: pdf/hints.tex img/generated/control-io.pdf img/generated/controlflow-else.pdf img/generated/controlflow-if.pdf img/generated/controlflow-loop.pdf img/generated/controlflow-nested-if.pdf img/generated/controlflow-straight.pdf img/generated/cos_sin.pdf img/generated/flood-grid.pdf img/generated/game-grid.pdf img/generated/html-boxes.pdf img/generated/html-links.pdf img/generated/html-tree.pdf img/generated/line-grid.pdf im 
-g/generated/linked-list.pdf img/generated/mirror.pdf img/generated/pizza-squirrel.pdf img/generated/rabbits.pdf img/generated/re_number.pdf img/generated/re_pigchickens.pdf img/generated/re_slow.pdf img/generated/syntax_tree.pdf img/generated/transform.pdf img/generated/unicycle.pdf img/generated/weresquirrel.pdf
+tex: pdf/hints.tex img/generated/control-io.pdf img/generated/controlflow-else.pdf img/generated/controlflow-if.pdf img/generated/controlflow-loop.pdf img/generated/controlflow-nested-if.pdf img/generated/controlflow-straight.pdf img/generated/cos_sin.pdf img/generated/flood-grid.pdf img/generated/game-grid.pdf img/generated/html-boxes.pdf img/generated/html-links.pdf img/generated/html-tree.pdf img/generated/line-grid.pdf img/generated/linked-list.pdf img/generated/mirror.pdf img/generated/pizza-squirrel.pdf img/generated/rabbits.pdf img/generated/re_number.pdf img/generated/re_pigchickens.pdf img/generated/re_slow.pdf img/generated/syntax_tree.pdf img/generated/transform.pdf img/generated/unicycle.pdf img/generated/weresquirrel.pdf
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1030,7 +1030,8 @@ code/solutions/20_3_a_public_space_on_the_web/other.html:
 
 # strcache performance: lookups = 394 / hit rate = 13%
 # hash-table stats:
-# Load=339/8192=4%, Rehash=0, Collisions=12/394=3%
-# Finished Make data base on Wed Jul 27 22:59:58 2022
+# Load=339/8192=4%, Rehash 
+=0, Collisions=12/394=3%
+# Finished Make data base on Thu Jul 28 22:53:42 2022
 
  

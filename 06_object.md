@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/chapter/06_object.js"], zip: "node/html"}}}
 
-# The Secret Life of Objects
+# ژیانی نهێنی ئۆبجێکتەکان
 
 {{quote {author: "Barbara Liskov", title: "Programming with Abstract Data Types", chapter: true}
 
@@ -24,7 +24,7 @@ programming has shaped the design of many programming languages,
 including JavaScript. This chapter will describe the way these ideas
 can be applied in JavaScript.
 
-## Encapsulation
+## بەستنەوە
 
 {{index encapsulation, isolation, modularity}}
 
@@ -72,7 +72,7 @@ usually called _((encapsulation))_.
 
 {{id obj_methods}}
 
-## Methods
+## شێوازەکان
 
 {{index "rabbit example", method, [property, access]}}
 
