@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/chapter/08_error.js"]}}}
 
-# Bugs and Errors
+# باگ و هەڵەکان
 
 {{quote {author: "Brian Kernighan and P.J. Plauger", title: "The Elements of Programming Style", chapter: true}
 
@@ -24,7 +24,7 @@ into those caused by the thoughts being confused and those caused by
 mistakes introduced while converting a thought to code. The former
 type is generally harder to diagnose and fix than the latter.
 
-## Language
+## زمان
 
 {{index parsing, analysis}}
 
@@ -58,7 +58,7 @@ problems can be difficult.
 The process of finding mistakes—bugs—in programs is called
 _((debugging))_.
 
-## Strict mode
+## دۆخی توند
 
 {{index "strict mode", [syntax, error], function}}
 
