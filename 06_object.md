@@ -972,7 +972,7 @@ but it shouldn't be the first tool you reach for, and you probably
 shouldn't actively go looking for opportunities to construct class
 hierarchies (family trees of classes).
 
-## The instanceof operator
+## نموونەی ئۆپەراتۆر
 
 {{index type, "instanceof operator", constructor, object}}
 
@@ -999,7 +999,7 @@ is an instance of `Matrix`. The operator can also be applied to
 standard constructors like `Array`. Almost every object is an instance
 of `Object`.
 
-## Summary
+## کورتە
 
 So objects do more than just hold their own properties. They have
 prototypes, which are other objects. They'll act as if they have
