@@ -1035,11 +1035,11 @@ When implementing multiple classes that differ in only some details,
 it can be helpful to write the new classes as _subclasses_ of an
 existing class, _inheriting_ part of its behavior.
 
-## Exercises
+## ڕاهێنانەکان
 
 {{id exercise_vector}}
 
-### A vector type
+### جۆرێکی ڤێکتەر
 
 {{index dimensions, "Vec class", coordinates, "vector (exercise)"}}
 
@@ -1092,7 +1092,7 @@ JavaScript.
 
 hint}}
 
-### Groups
+### گرووپەکان
 
 {{index "groups (exercise)", "Set class", "Group class", "set (data structure)"}}
 
@@ -1173,7 +1173,7 @@ group.
 
 hint}}
 
-### Iterable groups
+### گروپە دووبارەبووەکان
 
 {{index "groups (exercise)", [interface, object], "iterator interface", "Group class"}}
 
@@ -1220,7 +1220,7 @@ that group.
 
 hint}}
 
-### Borrowing a method
+### قەرزکردنی شێوازێک
 
 Earlier in the chapter I mentioned that an object's `hasOwnProperty`
 can be used as a more robust alternative to the `in` operator when you
