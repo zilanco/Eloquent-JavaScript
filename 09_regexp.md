@@ -1,4 +1,4 @@
-# Regular Expressions
+# دەربڕینە ئاساییەکان
 
 {{quote {author: "Jamie Zawinski", chapter: true}
 
@@ -46,7 +46,7 @@ provides for them is clumsy. But they are a powerful ((tool)) for
 inspecting and processing strings. Properly understanding regular
 expressions will make you a more effective programmer.
 
-## Creating a regular expression
+## دروستکردنی دەربڕینێکی ئاسایی
 
 {{index ["regular expression", creation], "RegExp class", "literal expression", "slash character"}}
 
@@ -84,7 +84,7 @@ character itself.
 let eighteenPlus = /eighteen\+/;
 ```
 
-## Testing for matches
+## تاقیکردنەوە بۆ هاوشێوەکان
 
 {{index matching, "test method", ["regular expression", methods]}}
 
@@ -107,7 +107,7 @@ simply represents that sequence of characters. If _abc_ occurs
 anywhere in the string we are testing against (not just at the start),
 `test` will return `true`.
 
-## Sets of characters
+## کۆمەڵێک لە کارەکتەرەکان
 
 {{index "regular expression", "indexOf method"}}
 
