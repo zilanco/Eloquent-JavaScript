@@ -351,7 +351,7 @@ Another way to set a breakpoint is to include a `debugger` statement
 ((developer tools)) of your browser are active, the program will pause
 whenever it reaches such a statement.
 
-## Error propagation
+## بڵاوکردنەوەی هەڵە
 
 {{index input, output, "run-time error", error, validation}}
 
@@ -425,7 +425,7 @@ it has to check 10 times whether `null` was returned. And if its
 response to finding `null` is to simply return `null` itself, callers
 of the function will in turn have to check for it, and so on.
 
-## Exceptions
+## ئیستسناءەکان
 
 {{index "error handling"}}
 
@@ -512,7 +512,7 @@ in between can forget all about it.
 
 Well, almost...
 
-## Cleaning up after exceptions
+## پاککردنەوە دوای ئیستسنایەکان
 
 {{index "exception handling", "cleaning up", ["control flow", exceptions]}}
 
