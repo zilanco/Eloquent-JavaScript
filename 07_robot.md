@@ -192,7 +192,7 @@ The move causes the parcel to be delivered, and this is reflected in
 the next state. But the initial state still describes the situation
 where the robot is at the post office and the parcel is undelivered.
 
-## Persistent data
+## داتای بەردەوام
 
 {{index "persistent data structure", mutability, ["data structure", immutable]}}
 
@@ -240,7 +240,7 @@ programming language isn't helping, can be a little harder. We'll
 look for opportunities to use persistent data structures in this
 book, but we'll also be using changeable ones.
 
-## Simulation
+## هاوشێوەکردن
 
 {{index simulation, "virtual world"}}
 
@@ -367,7 +367,7 @@ to guess how it works.
 
 if}}
 
-## The mail truck's route
+## ڕێگای بارهەڵگری پۆست
 
 {{index "mailRoute array"}}
 
