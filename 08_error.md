@@ -793,7 +793,7 @@ of bad input. That'd be a lot of work and would lead to very noisy
 code. You'll want to reserve them for mistakes that are easy to make
 (or that you find yourself making).
 
-## Summary
+## کورتە
 
 Mistakes and bad input are facts of life. An important part of
 programming is finding, diagnosing, and fixing bugs. Problems can
@@ -813,9 +813,9 @@ and then do something with it. To help address the unpredictable
 control flow caused by exceptions, `finally` blocks can be used to
 ensure that a piece of code _always_ runs when a block finishes.
 
-## Exercises
+## ڕاهێنانەکان
 
-### Retry
+### دووبارە هەوڵ دان
 
 {{index "primitiveMultiply (exercise)", "exception handling", "throw keyword"}}
 
@@ -868,7 +868,7 @@ bet).
 
 hint}}
 
-### The locked box
+### سندوقی داخراو
 
 {{index "locked box (exercise)"}}
 
