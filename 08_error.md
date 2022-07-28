@@ -143,7 +143,7 @@ wrong it is not further discussed in this book).
 In short, putting `"use strict"` at the top of your program rarely
 hurts and might help you spot a problem.
 
-## Types
+## جۆرەکان
 
 Some languages want to know the types of all your bindings and
 expressions before even running a program. They will tell you right
@@ -192,7 +192,7 @@ in adding more rigor to your programs, I recommend you give it a try.
 In this book, we'll continue using raw, dangerous, untyped JavaScript
 code.
 
-## Testing
+## تاقیکردنەوە
 
 {{index "test suite", "run-time error", automation, testing}}
 
@@ -253,7 +253,7 @@ up the context in which to test it. The style of programming shown in
 the [previous chapter](robot), which uses self-contained persistent
 values rather than changing objects, tends to be easy to test.
 
-## Debugging
+## چاککردنەوە
 
 {{index debugging}}
 
