@@ -606,7 +606,7 @@ specific interface, which arrays and strings do. And we can also add
 this interface to our own objects! But before we can do that, we need
 to know what symbols are.
 
-## Symbols
+## هێماکان
 
 It is possible for multiple interfaces to use the same property name
 for different things. For example, I could define an interface in which
@@ -673,7 +673,7 @@ console.log(stringObject[toStringSymbol]());
 // → a jute rope
 ```
 
-## The iterator interface
+## ڕووکاری تێنووسکەر
 
 {{index "iterable interface", "Symbol.iterator symbol", "for/of loop"}}
 
@@ -811,7 +811,7 @@ for (let {x, y, value} of matrix) {
 // → 1 1 value 1,1
 ```
 
-## Getters, setters, and statics
+## گێتێرەکان و سێتەرەکان و ستاتیکەکان
 
 {{index [interface, object], [property, definition], "Map class"}}
 
@@ -887,7 +887,7 @@ their name are stored on the constructor. So the `Temperature` class
 allows you to write `Temperature.fromFahrenheit(100)` to create a
 temperature using degrees Fahrenheit.
 
-## Inheritance
+## میرات گرتن
 
 {{index inheritance, "matrix example", "object-oriented programming", "SymmetricMatrix class"}}
 
