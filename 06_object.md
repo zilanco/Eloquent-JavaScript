@@ -400,7 +400,7 @@ console.log(object.getWord());
 // → hello
 ```
 
-## Overriding derived properties
+## سەرپێچی تایبەتمەندییە وەرگیراوەکان
 
 {{index "shared property", overriding, [property, inheritance]}}
 
@@ -467,7 +467,7 @@ console.log(Object.prototype.toString.call([1, 2]));
 // → [object Array]
 ```
 
-## Maps
+## نەخشەکان
 
 {{index "map method"}}
 
@@ -566,7 +566,7 @@ console.log({x: 1}.hasOwnProperty("toString"));
 // → false
 ```
 
-## Polymorphism
+## پۆلی مۆرفیزمی
 
 {{index "toString method", "String function", polymorphism, overriding, "object-oriented programming"}}
 
