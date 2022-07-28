@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/chapter/07_robot.js", "code/animatevillage.js"], zip: html}}}
 
-# Project: A Robot
+# پڕۆژە: ڕۆبۆتێک
 
 {{quote {author: "Edsger Dijkstra", title: "The Threats to Computing Science", chapter: true}
 
@@ -24,7 +24,7 @@ Our project in this chapter is to build an ((automaton)), a little
 program that performs a task in a ((virtual world)). Our automaton
 will be a mail-delivery ((robot)) picking up and dropping off parcels.
 
-## Meadowfield
+## میدۆفیلد
 
 {{index "roads array"}}
 
@@ -86,7 +86,7 @@ It uses the `split` method to go from the road strings, which have the
 form `"Start-End"`, to two-element arrays containing the start and end
 as separate strings.
 
-## The task
+## ئەرکەکە
 
 Our ((robot)) will be moving around the village. There are parcels
 in various places, each addressed to some other place. The robot picks
