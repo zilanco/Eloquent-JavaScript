@@ -151,7 +151,7 @@ the code wouldn't work.
 
 {{id prototypes}}
 
-## Prototypes
+## نموونە سەرەتاییەکان
 
 {{index "toString method"}}
 
@@ -257,7 +257,7 @@ type—and derives shared properties from its prototype.
 
 {{id classes}}
 
-## Classes
+## پۆلەکان
 
 {{index "object-oriented programming"}}
 
@@ -348,7 +348,7 @@ console.log(Object.getPrototypeOf(weirdRabbit) ==
 // → true
 ```
 
-## Class notation
+## تێبینی پۆل
 
 So JavaScript ((class))es are ((constructor)) functions with a
 ((prototype)) property. That is how they work, and until 2015, that
