@@ -413,7 +413,7 @@ runRobotAnimation(VillageState.random(), routeRobot, []);
 
 if}}
 
-## Pathfinding
+## دۆزینەوەی رێگە
 
 Still, I wouldn't really call blindly following a fixed route
 intelligent behavior. The ((robot)) could work more efficiently if it
@@ -539,9 +539,9 @@ if}}
 This robot usually finishes the task of delivering 5 parcels in about
 16 turns. That's slightly better than `routeRobot` but still definitely not optimal.
 
-## Exercises
+## ڕاهێنانەکان
 
-### Measuring a robot
+### پێوانەکردنی ڕۆبۆتێک
 
 {{index "measuring a robot (exercise)", testing, automation, "compareRobots function"}}
 
@@ -584,7 +584,7 @@ of measurements.
 
 hint}}
 
-### Robot efficiency
+### کارایی ڕۆبۆت
 
 {{index "robot efficiency (exercise)"}}
 
@@ -621,7 +621,7 @@ pick up a package instead of delivering a package.
 
 hint}}
 
-### Persistent group
+### گروپی بەردەوام
 
 {{index "persistent group (exercise)", "persistent data structure", "Set class", "set (data structure)", "Group class", "PGroup class"}}
 
