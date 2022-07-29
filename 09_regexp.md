@@ -193,7 +193,7 @@ console.log(notBinary.test("1100100010200110"));
 // → true
 ```
 
-## Repeating parts of a pattern
+## دووبارەکردنەوەی بەشەکانی نەخشێک
 
 {{index ["regular expression", repetition]}}
 
@@ -263,7 +263,7 @@ You can also specify open-ended ((range))s when using braces
 by omitting the number after the comma. So, `{5,}` means five or more
 times.
 
-## Grouping subexpressions
+## کۆمەڵکردنی ژێرکۆپرێسەکان
 
 {{index ["regular expression", grouping], grouping, [parentheses, "in regular expressions"]}}
 
@@ -290,7 +290,7 @@ The `i` at the end of the expression in the example makes this regular
 expression case insensitive, allowing it to match the uppercase _B_ in
 the input string, even though the pattern is itself all lowercase.
 
-## Matches and groups
+## هاوچەشنەکان و گروپەکان
 
 {{index ["regular expression", grouping], "exec method", [array, "RegExp match"]}}
 

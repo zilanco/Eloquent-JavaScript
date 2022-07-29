@@ -5,13 +5,15 @@ process_begin: CreateProcess(NULL, ls [0-9][0-9]_*.md, ...) failed.
 Makefile:1: pipe: No error
 
 make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', needed by 'html/js/acorn_codemirror.js'.
+
 make: *** No rule to make target 'node_modules/codemirror/mode/javascript/javascript.js', needed by 'html/js/acorn_codemirror.js'.
 make: *** No rule to make target 'node_modules/codemirror/mode/css/css.js', needed by 'html/js/acorn_codemirror.js'.
 make: *** No rule to make target 'node_modules/codemirror/mode/xml/xml.js', needed by 'html/js/acorn_codemirror.js'.
-make: *** No rule to make target 'node_modules/codemirror/mode/htmlmixed/htmlmixed.js', needed by 'html/js/acorn_codemirror.js'.
 
+make: *** No rule to make target 'node_modules/codemirror/mode/htmlmixed/htmlmixed.js', needed by 'html/js/acorn_codemirror.js'.
 make: *** No rule to make target 'node_modules/codemirror/addon/edit/matchbrackets.js', needed by 'html/js/acorn_codemirror.js'.
 make: *** No rule to make target 'node_modules/acorn/dist/acorn.js', needed by 'html/js/acorn_codemirror.js'.
+
 make: *** No rule to make target 'node_modules/acorn/dist/walk.js', needed by 'html/js/acorn_codemirror.js'.
 
 node src/render_html.js 21_skillsharing.md > html/21_skillsharing.html
@@ -67,16 +69,13 @@ inkscape --export-pdf=img/generated/re_pigchickens.pdf img/re_pigchickens.svg
 inkscape --export-pdf=img/generated/re_slow.pdf img/re_slow.svg
  
 inkscape --export-pdf=img/generated/syntax_tree.pdf img/syntax_tree.svg
- 
 inkscape --export-pdf=img/generated/transform.pdf img/transform.svg
- 
 inkscape --export-pdf=img/generated/unicycle.pdf img/unicycle.svg
  
 inkscape --export-pdf=img/generated/weresquirrel.pdf img/weresquirrel.svg
  
 cd pdf && sh build.sh book > /dev/null
 mv pdf/book.pdf .	
- 
 cat pdf/book.tex | sed -e 's/natbib}/natbib}\n\\usepackage[a5paper, left=5mm, right=5mm]{geometry}/' | sed -e 's/setmonofont.Scale=0.8./setmonofont[Scale=0.75]/' > pdf/book_mobile.tex
 cd pdf && sh build.sh book_mobile > /dev/null
 mv pdf/book_mobile.pdf .	
