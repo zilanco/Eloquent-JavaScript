@@ -365,7 +365,7 @@ of the result of `exec`.
 But first we'll take a brief detour, in which we discuss the built-in way to
 represent date and ((time)) values in JavaScript.
 
-## The Date class
+## پۆلی بەروار
 
 {{index constructor, "Date class"}}
 
@@ -447,7 +447,7 @@ console.log(getDate("1-30-2003"));
 The `_` (underscore) binding is ignored and used only to skip the
 full match element in the array returned by `exec`.
 
-## Word and string boundaries
+## سنووری وشە و ڕستە
 
 {{index matching, ["regular expression", boundary]}}
 
@@ -487,7 +487,7 @@ Note that a boundary marker doesn't match an actual character. It just
 enforces that the regular expression matches only when a certain
 condition holds at the place where it appears in the pattern.
 
-## Choice patterns
+## شێوازەکانی هەڵبژاردن
 
 {{index branching, ["regular expression", alternatives], "farm example"}}
 
@@ -514,7 +514,7 @@ Parentheses can be used to limit the part of the pattern that the pipe
 operator applies to, and you can put multiple such operators next to
 each other to express a choice between more than two alternatives.
 
-## The mechanics of matching
+## میکانیکی هاوتاکردن
 
 {{index ["regular expression", matching], [matching, algorithm], "search problem"}}
 
@@ -570,7 +570,7 @@ through the flow chart would look like this:
 
 {{id backtracking}}
 
-## Backtracking
+## پاشەکشەکردن
 
 {{index ["regular expression", backtracking], "binary number", "decimal number", "hexadecimal number", "flow diagram", [matching, algorithm], backtracking}}
 
