@@ -641,7 +641,7 @@ This means the amount of work _doubles_ with each additional
 character. For even just a few dozen characters, the resulting match
 will take practically forever.
 
-## The replace method
+## شێوازی جێگۆڕکێ
 
 {{index "replace method", "regular expression"}}
 
@@ -740,7 +740,7 @@ and the `(\w+)` group gets bound to `unit`. The function converts
 `amount` to a number—which always works since it matched `\d+`—and
 makes some adjustments in case there is only one or zero left.
 
-## Greed
+## چاوچنۆک
 
 {{index greed, "regular expression"}}
 
@@ -808,7 +808,7 @@ unintentionally using a greedy operator where a nongreedy one would
 work better. When using a ((repetition)) operator, consider the
 nongreedy variant first.
 
-## Dynamically creating RegExp objects
+## دروستکردنی ئۆبجێکتی RegExp بە شێوەیەکی داینامیکی
 
 {{index ["regular expression", creation], "underscore character", "RegExp class"}}
 
@@ -856,7 +856,7 @@ console.log(text.replace(regexp, "_$&_"));
 // → This _dea+hl[]rd_ guy is super annoying.
 ```
 
-## The search method
+## شێوازی گەڕان
 
 {{index ["regular expression", methods], "indexOf method", "search method"}}
 
@@ -876,7 +876,7 @@ Unfortunately, there is no way to indicate that the match should start
 at a given offset (like we can with the second argument to `indexOf`),
 which would often be useful.
 
-## The lastIndex property
+## تایبەتمەندی lastIndex
 
 {{index "exec method", "regular expression"}}
 
@@ -964,7 +964,7 @@ are necessary—calls to `replace` and places where you want to
 explicitly use `lastIndex`—are typically the only places where you
 want to use them.
 
-### Looping over matches
+### گرێدان بەسەر هاوشێوەکان
 
 {{index "lastIndex property", "exec method", loop}}
 
