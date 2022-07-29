@@ -595,7 +595,7 @@ do(define(pow, fun(base, exp,
 // → 1024
 ```
 
-## Compilation
+## کۆکردنەوە
 
 {{index interpretation, compilation}}
 
@@ -631,7 +631,7 @@ If you are interested in this topic and willing to spend some time on
 it, I encourage you to try to implement such a compiler as an
 exercise.
 
-## Cheating
+## فێڵکردن
 
 {{index "Egg language"}}
 
