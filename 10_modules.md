@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/packages_chapter_10.js", "code/chapter/07_robot.js"]}}}
 
-# Modules
+# مۆدیولەکان
 
 {{quote {author: "Tef", title: "Programming is Terrible", chapter: true}
 
@@ -41,7 +41,7 @@ structureless programs. Everything sticks together, and when you try
 to pick out a piece, the whole thing comes apart, and your hands get
 dirty.
 
-## Modules
+## مۆدیولەکان
 
 {{index dependency, [interface, module]}}
 
@@ -85,7 +85,7 @@ it too much since it can be a big distraction. Once you have
 something that feels solid, that's a good time to take a step back and
 organize it.
 
-## Packages
+## پاکێجەکان
 
 {{index bug, dependency, structure, reuse}}
 
@@ -172,7 +172,7 @@ the license with the code as you distribute it. The JavaScript
 community mostly uses the latter type of license. When using other
 people's packages, make sure you are aware of their license.
 
-## Improvised modules
+## مۆدیولەکانی دروستکراو
 
 Until 2015, the JavaScript language had no built-in module system.
 Yet people had been building large systems in JavaScript for more than a decade, and they _needed_ ((module))s.
