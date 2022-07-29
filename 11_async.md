@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/crow-tech.js", "code/chapter/11_async.js"]}}}
 
-# Asynchronous Programming
+# پرۆگرامکردنی ناهاوسەنگ
 
 {{quote {author: "Laozi", title: "Tao Te Ching", chapter: true}
 
@@ -34,7 +34,7 @@ will switch the processor between multiple running programs. But that
 doesn't help when we want a _single_ program to be able to make
 progress while it is waiting for a network request.
 
-## Asynchronicity
+## ناهاوسەنگی
 
 {{index "synchronous programming"}}
 
@@ -104,7 +104,7 @@ notoriously hard (understanding what a program does is much more
 difficult when it's doing multiple things at once), this is generally
 considered a good thing.
 
-## Crow tech
+## تەکنەلۆجیای کلاو
 
 Most people are aware of the fact that ((crow))s are very smart birds.
 They can use tools, plan ahead, remember things, and even communicate
@@ -145,7 +145,7 @@ In an astounding example of ((convergent evolution)), crow computers
 run JavaScript. In this chapter we'll write some basic networking
 functions for them.
 
-## Callbacks
+## پەیوەندیکردنەکان
 
 {{indexsee [function, callback], "callback function"}}
 
@@ -273,7 +273,7 @@ callback is somewhat more involved and error-prone than simply
 returning a value, so needing to structure large parts of your program
 that way is not great.
 
-## Promises
+## بەڵێنەکان
 
 Working with abstract concepts is often easier when those concepts can
 be represented by ((value))s. In the case of asynchronous actions, you
