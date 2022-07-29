@@ -1233,7 +1233,7 @@ advantage of JavaScript's _explicit_ asynchronicity (whether through
 callbacks, promises, or `await`) is that spotting these gaps is
 relatively easy.
 
-## Summary
+## کورتە
 
 Asynchronous programming makes it possible to express waiting for
 long-running actions without freezing the program during these
@@ -1248,9 +1248,9 @@ represent actions that might complete in the future, and `async`
 functions, which allow you to write an asynchronous program as if it
 were synchronous.
 
-## Exercises
+## ڕاهێنانەکان
 
-### Tracking the scalpel
+### بەدواکەوتنی سکاپلەکە
 
 {{index "scalpel (exercise)"}}
 
@@ -1333,7 +1333,7 @@ reason.
 
 hint}}
 
-### Building Promise.all
+### بنیاتنانی Promise.all
 
 {{index "Promise class", "Promise.all function", "building Promise.all (exercise)"}}
 
