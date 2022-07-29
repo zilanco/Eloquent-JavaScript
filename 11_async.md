@@ -353,7 +353,7 @@ functions look similar to regular ones: they take input as arguments
 and return their output. The only difference is that the output may
 not be available yet.
 
-## Failure
+## شکست
 
 {{index "exception handling"}}
 
@@ -445,7 +445,7 @@ Much like an uncaught exception is handled by the environment,
 JavaScript environments can detect when a promise rejection isn't
 handled and will report this as an error.
 
-## Networks are hard
+## تۆڕەکان سەختن
 
 {{index [network, reliability]}}
 
@@ -578,7 +578,7 @@ exceptions like that, and if you don't do it, failures won't get
 reported to the right callback. Promises make this mostly automatic
 and thus less error-prone.
 
-## Collections of promises
+## کۆکراوەی بەڵێنەکان
 
 {{index "neighbors property", "ping request"}}
 
@@ -627,7 +627,7 @@ false. This makes use of the fact that `filter` passes the array index
 of the current element as a second argument to its filtering function
 (`map`, `some`, and similar higher-order array methods do the same).
 
-## Network flooding
+## لافاوی تۆڕ
 
 The fact that nests can talk only to their neighbors greatly inhibits
 the usefulness of this network.
@@ -695,7 +695,7 @@ sendGossip(bigOak, "Kids with airgun in the park");
 
 if}}
 
-## Message routing
+## ڕێڕەوی پەیام
 
 {{index efficiency}}
 
@@ -976,7 +976,7 @@ something that doesn't fit the synchronous model, such as perform
 multiple actions at the same time, it is easy to combine `await` with
 the direct use of promises.
 
-## Generators
+## مۆلیدەکان
 
 {{index "async function"}}
 
@@ -1056,7 +1056,7 @@ rejected when it throws an exception. Whenever it yields (awaits) a
 promise, the result of that promise (value or thrown exception) is the
 result of the `await` expression.
 
-## The event loop
+## لوپی ڕووداو
 
 {{index "asynchronous programming", scheduling, "event loop", timeline}}
 
@@ -1133,7 +1133,7 @@ console.log("Me first!");
 In later chapters we'll see various other types of events that run on
 the event loop.
 
-## Asynchronous bugs
+## هەڵەی ناهاوسەنگ
 
 {{index "asynchronous programming", [state, transitions]}}
 
