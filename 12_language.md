@@ -688,9 +688,9 @@ language can be more expressive than a general-purpose language
 because it is designed to describe exactly the things that need to be
 described in its domain, and nothing else.
 
-## Exercises
+## ڕاهێنانەکان
 
-### Arrays
+### ڕیزەکان
 
 {{index "Egg language", "arrays in egg (exercise)", [array, "in Egg"]}}
 
@@ -741,7 +741,7 @@ _very_ simple.
 
 hint}}
 
-### Closure
+### داخستن
 
 {{index closure, [function, scope], "closure in egg (exercise)"}}
 
@@ -787,7 +787,7 @@ efficient, you'd need to do some more work).
 
 hint}}
 
-### Comments
+### کۆمێنتەکان
 
 {{index "hash character", "Egg language", "comments in egg (exercise)"}}
 
@@ -837,7 +837,7 @@ many characters to slice off.
 
 hint}}
 
-### Fixing scope
+### جێگیرکردنی مەودا
 
 {{index [binding, definition], assignment, "fixing scope (exercise)"}}
 
