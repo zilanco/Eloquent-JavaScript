@@ -218,7 +218,7 @@ able to execute strings as code. JavaScript can do this.
 
 {{id eval}}
 
-## Evaluating data as code
+## هەڵسەنگاندنی داتا وەک کۆد
 
 {{index evaluation, interpretation}}
 
@@ -412,7 +412,7 @@ console.log(parse("x = 10\ny = 20"));
 // → {x: "10", y: "20"}
 ```
 
-## ECMAScript modules
+## مۆدیوولەکانی ECMAScript
 
 ((CommonJS modules)) work quite well and, in combination with NPM, 
 have allowed the JavaScript community to start sharing code on a large
@@ -502,7 +502,7 @@ transitional period in which two different module systems are used
 side by side, and it is useful to be able to read and write code in
 either of them.
 
-## Building and bundling
+## بیناسازی و باندڵکردن
 
 {{index compilation, "type checking"}}
 
@@ -549,7 +549,7 @@ We won't go into the details of these tools in this book since they
 tend to be boring and change rapidly. Just be aware that the
 JavaScript code you run is often not the code as it was written.
 
-## Module design
+## دیزاینی مۆدیول
 
 {{index [module, design], [interface, module], [code, "structure of"]}}
 
