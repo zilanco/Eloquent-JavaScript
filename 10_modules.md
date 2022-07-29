@@ -667,7 +667,7 @@ is difficult. Therefore, if you want to design for composability,
 find out what ((data structure))s other people are using and, when
 possible, follow their example.
 
-## Summary
+## کورتە
 
 Modules provide structure to bigger programs by separating the code
 into pieces with clear interfaces and dependencies. The interface is
@@ -683,9 +683,9 @@ A package is a chunk of code that can be distributed on its own. NPM
 is a repository of JavaScript packages. You can download all kinds of
 useful (and useless) packages from it.
 
-## Exercises
+## ڕاهێنانەکان
 
-### A modular robot
+### ڕۆبۆتێکی مۆدیولار
 
 {{index "modular robot (exercise)", module, robot, NPM}}
 
@@ -785,7 +785,7 @@ on how much the packages help you.
 
 hint}}
 
-### Roads module
+### مۆدیولی ڕێگاکان
 
 {{index "roads module (exercise)"}}
 
@@ -830,7 +830,7 @@ module.
 
 hint}}
 
-### Circular dependencies
+### پشتبەستنی بازنەیی
 
 {{index dependency, "circular dependency", "require function"}}
 
