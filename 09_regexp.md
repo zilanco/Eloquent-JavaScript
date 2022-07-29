@@ -993,7 +993,7 @@ perform the match at the start of each iteration, save its result in a
 binding, and stop looping when no more matches are found.
 
 {{id ini}}
-## Parsing an INI file
+## شیکردنەوەی فایلی INI
 
 {{index comment, "file format", "enemies example", "INI file"}}
 
@@ -1115,7 +1115,7 @@ parentheses will match comments, and the `?` makes sure it also
 matches lines containing only whitespace. When a line doesn't match
 any of the expected forms, the function throws an exception.
 
-## International characters
+## کارەکتەرە نێونەتەوەییەکان
 
 {{index internationalization, Unicode, ["regular expression", internationalization]}}
 
@@ -1188,7 +1188,7 @@ given value for that property. If the property name is left off, as in
 
 {{id summary_regexp}}
 
-## Summary
+## کورتە
 
 Regular expressions are objects that represent patterns in strings.
 They use their own language to express these patterns.
@@ -1239,7 +1239,7 @@ when applied to complex problems. Part of knowing how to use them is
 resisting the urge to try to shoehorn things that they cannot cleanly
 express into them.
 
-## Exercises
+## ڕاهێنانەکان
 
 {{index debugging, bug}}
 
@@ -1251,7 +1251,7 @@ your expression into an online tool like
 visualization corresponds to what you intended and to ((experiment))
 with the way it responds to various input strings.
 
-### Regexp golf
+### گۆڵفی Regexp
 
 {{index "program size", "code golf", "regexp golf (exercise)"}}
 
@@ -1327,7 +1327,7 @@ function verify(regexp, yes, no) {
 
 if}}
 
-### Quoting style
+### شێوازی وەرگێڕان
 
 {{index "quoting style (exercise)", "single-quote character", "double-quote character"}}
 
@@ -1369,7 +1369,7 @@ that are not matched will be replaced by nothing.
 
 hint}}
 
-### Numbers again
+### دووبارە ژمارەکان
 
 {{index sign, "fractional number", [syntax, number], minus, "plus character", exponent, "scientific notation", "period character"}}
 
