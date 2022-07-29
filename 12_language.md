@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/chapter/12_language.js"], zip: "node/html"}}}
 
-# Project: A Programming Language
+# پرۆژە: زمانێکی پرۆگرامسازی
 
 {{quote {author: "Hal Abelson and Gerald Sussman", title: "Structure and Interpretation of Computer Programs", chapter: true}
 
@@ -31,7 +31,7 @@ based on ((function))s.
 
 {{id parsing}}
 
-## Parsing
+## پارسکردن
 
 {{index parsing, validation, [syntax, "of Egg"]}}
 
@@ -274,7 +274,7 @@ and doesn't store the line and column on which each expression starts,
 which might be helpful when reporting errors later, but it's good
 enough for our purposes.
 
-## The evaluator
+## هەڵسەنگێنەر
 
 {{index "evaluate function", evaluation, interpretation, "syntax tree", "Egg language"}}
 
@@ -348,7 +348,7 @@ This is really all that is needed to interpret Egg. It is that simple.
 But without defining a few special forms and adding some useful values
 to the ((environment)), you can't do much with this language yet.
 
-## Special forms
+## فۆڕمی تایبەت
 
 {{index "special form", "specialForms object"}}
 
@@ -442,7 +442,7 @@ specialForms.define = (args, scope) => {
 };
 ```
 
-## The environment
+## ژینگە
 
 {{index "Egg language", "evaluate function", [binding, "in Egg"]}}
 
@@ -534,7 +534,7 @@ implemented in less than 150 ((lines of code)).
 
 {{id egg_fun}}
 
-## Functions
+## فەنکشنکان
 
 {{index function, "Egg language"}}
 
