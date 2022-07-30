@@ -1,4 +1,4 @@
-# JavaScript and the Browser
+# جاڤاسکڕێپت و وێبگەڕ
 
 {{quote {author: "Tim Berners-Lee", title: "The World Wide Web: A very short personal history", chapter: true}
 
@@ -33,7 +33,7 @@ was developed means that the resulting system is not exactly a shining
 example of internal ((consistency)). Some parts of it are downright
 confusing and poorly conceived.
 
-## Networks and the Internet
+## تۆڕەکان و ئینتەرنێت
 
 Computer ((network))s have been around since the 1950s. If you put
 cables between two or more computers and allow them to send data back
@@ -120,7 +120,7 @@ provides an abstraction of the network.
 
 {{id web}}
 
-## The Web
+## وێب
 
 The _((World Wide Web))_ (not to be confused with the ((Internet)) as
 a whole) is a set of ((protocol))s and formats that allow us to visit
