@@ -2,8 +2,6 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 process_begin: CreateProcess(NULL, ls [0-9][0-9]_*.md, ...) failed.
 Makefile:1: pipe: No error
 
-make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', needed by 'html/js/acorn_codemirror.js'.  Stop.
-
 # GNU Make 4.3
 # Built for Windows32
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -11,7 +9,7 @@ make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', ne
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 29 23:23:09 2022
+# Make data base, printed on Sat Jul 30 23:47:23 2022
 
 # Variables
 
@@ -42,7 +40,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17660_ISESFRFAJBBYAVVW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15680_CIBZWHJKIITSDOGO
 # makefile (from 'Makefile', line 3)
 SVGS := img/control-io.svg img/controlflow-else.svg img/controlflow-if.svg img/controlflow-loop.svg img/controlflow-nested-if.svg img/controlflow-straight.svg img/cos_sin.svg img/flood-grid.svg img/game-grid.svg img/html-boxes.svg img/html-links.svg img/html-tree.svg img/line-grid.svg img/linked-list.svg img/mirror.svg img/pizza-squirrel.svg img/rabbits.svg img/re_number.svg img/re_pigchickens.svg img/re_slow.svg img/syntax_tree.svg img/transform.svg img/unicycle.svg img/weresquirrel.svg
 # environment
@@ -94,7 +92,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 17660
+VSCODE_PID = 15680
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -236,8 +234,7 @@ html/%.html: %.md
 
 img/generated/%.pdf: img/%.svg
 #  recipe to execute (from 'Makefile', line 57):
-	inkscape --ex 
-port-pdf=$@ $<
+	inkscape --export-pdf=$@ $<
 
 pdf/%.tex: %.md
 #  recipe to execute (from 'Makefile', line 60):
@@ -420,7 +417,10 @@ code/solutions/09_2_quoting_style.js:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
+# Not a  
+make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', needed by 'html/js/acorn_codemirror.js'.  Stop.
+
+target:
 code/solutions/07_1_measuring_a_robot.js:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -516,8 +516,7 @@ node_modules/codemirror/mode/xml/xml.js:
 img/generated/line-grid.pdf:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File ha 
-s not been updated.
+#  File has not been updated.
 
 # Not a target:
 code/solutions/04_2_reversing_an_array.js:
@@ -788,8 +787,7 @@ code/solutions/14_2_elements_by_tag_name.html:
 #  File has not been updated.
 
 # Not a target:
-node_modules/codem 
-irror/lib/codemirror.js:
+node_modules/codemirror/lib/codemirror.js:
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
@@ -1006,8 +1004,7 @@ pdf/book.tex:
 #  Modification time never checked.
 #  File has not been updated.
 
-html/js/chapter_info.js: code/solutions/02_1_looping_a_triangle.js code/solutions/02_2_fizzbuzz.js code/solutions/02_3_chessboard.js code/solutions/03_1_minimum.js code/solutions/03_2_recursion.js code/solutions/03_3_bean_counting.js code/solutions/04_1_the_sum_of_a_range.js code/solutions/04_2_reversing_an_array.js code/solutions/04_3_a_list.js code/solutions/04_4_deep_comparison.js code/solutions/05_1_flattening.js code/solutions/05_2_your_own_loop.js code/solutions/05_3_everything.js code/solutions/05_4_dominant_writing_direction.js code/solutions/06_1_a_vector_type.js code/solutions/06_2_groups.js code/solutions/06_3_iterable_groups.js code/solutions/06_4_borrowing_a_method.js code/solutions/07_1_measuring_a_robot.js code/solutions/07_2_robot_efficiency.js code/solutions/07_3_persistent_group.js code/solutions/08_1_retry.js code/solutions/08_2_the_locked_box.js code/solutions/09_1_regexp_golf.js code/solutions/09_2_quoting_style.js code/solutions/09_3_numbers_again.js code/solutions/10_2_roads_module.js code/solutions/11_1_t 
-racking_the_scalpel.js code/solutions/11_2_building_promiseall.js code/solutions/12_1_arrays.js code/solutions/12_3_comments.js code/solutions/12_4_fixing_scope.js code/solutions/14_1_build_a_table.html code/solutions/14_2_elements_by_tag_name.html code/solutions/14_3_the_cats_hat.html code/solutions/15_1_balloon.html code/solutions/15_2_mouse_trail.html code/solutions/15_3_tabs.html code/solutions/16_1_game_over.html code/solutions/16_2_pausing_the_game.html code/solutions/16_3_a_monster.html code/solutions/17_1_shapes.html code/solutions/17_2_the_pie_chart.html code/solutions/17_3_a_bouncing_ball.html code/solutions/18_1_content_negotiation.js code/solutions/18_2_a_javascript_workbench.html code/solutions/18_3_conways_game_of_life.html code/solutions/19_1_keyboard_bindings.html code/solutions/19_2_efficient_drawing.html code/solutions/19_3_circles.html code/solutions/19_4_proper_lines.html code/solutions/20_1_search_tool.js code/solutions/20_2_directory_creation.js code/solutions/20_3_a_public_space_on_the_web code/solutions/21_1_disk_persistence.js code/solutions/21_2_comment_field_resets.js code/solutions/22_1_pathfinding.js code/solutions/22_2_timing.js code/solutions/22_3_optimizing.js src/chapter_info.js
+html/js/chapter_info.js: code/solutions/02_1_looping_a_triangle.js code/solutions/02_2_fizzbuzz.js code/solutions/02_3_chessboard.js code/solutions/03_1_minimum.js code/solutions/03_2_recursion.js code/solutions/03_3_bean_counting.js code/solutions/04_1_the_sum_of_a_range.js code/solutions/04_2_reversing_an_array.js code/solutions/04_3_a_list.js code/solutions/04_4_deep_comparison.js code/solutions/05_1_flattening.js code/solutions/05_2_your_own_loop.js code/solutions/05_3_everything.js code/solutions/05_4_dominant_writing_direction.js code/solutions/06_1_a_vector_type.js code/solutions/06_2_groups.js code/solutions/06_3_iterable_groups.js code/solutions/06_4_borrowing_a_method.js code/solutions/07_1_measuring_a_robot.js code/solutions/07_2_robot_efficiency.js code/solutions/07_3_persistent_group.js code/solutions/08_1_retry.js code/solutions/08_2_the_locked_box.js code/solutions/09_1_regexp_golf.js code/solutions/09_2_quoting_style.js code/solutions/09_3_numbers_again.js code/solutions/10_2_roads_module.js code/solutions/11_1_tracking_the_scalpel.js code/solutions/11_2_building_promiseall.js code/solutions/12_1_arrays.js code/solutions/12_3_comments.js code/solutions/12_4_fixing_scope.js code/solutions/14_1_build_a_table.html code/solutions/14_2_elements_by_tag_name.html code/solutions/14_3_the_cats_hat.html code/solutions/15_1_balloon.html code/solutions/15_2_mouse_trail.html code/solutions/15_3_tabs.html code/solutions/16_1_game_over.html code/solutions/16_2_pausing_the_game.html code/solutions/16_3_a_monster.html code/solutions/17_1_shapes.html code/solutions/17_2_the_pie_chart.html code/solutions/17_3_a_bouncing_ball.html code/solutions/18_1_content_negotiation.js code/solutions/18_2_a_javascript_workbench.html code/solutions/18_3_conways_game_of_life.html code/solutions/19_1_keyboard_bindings.html code/solutions/19_2_efficient_drawing.html code/solutions/19_3_circles.html code/solutions/19_4_proper_lines.html code/solutions/20_1_search_tool.js code/solutions/20_2_directory_creation.js code/solutions/20_3_a_public_space_on_the_web code/solutions/21_1_disk_persistence.js code/solutions/21_2_comment_field_resets.js code/solutions/22_1_pathfinding.js code/solutions/22_2_timing.js code/solutions/22_3_optimizing.js src/chapter_info.js
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1034,6 +1031,6 @@ code/solutions/20_3_a_public_space_on_the_web/other.html:
 # strcache performance: lookups = 394 / hit rate = 13%
 # hash-table stats:
 # Load=339/8192=4%, Rehash=0, Collisions=12/394=3%
-# Finished Make data base on Fri Jul 29 23:23:09 2022
+# Finished Make data base on Sat Jul 30 23:47:23 2022
 
  
