@@ -311,7 +311,7 @@ in the text.
 
 {{id script_tag}}
 
-## HTML and JavaScript
+## HTML و جاڤاسکڕێپت
 
 {{index [JavaScript, "in HTML"], "script (HTML tag)"}}
 
@@ -377,7 +377,7 @@ Note that I had to use single quotes for the string in the `onclick`
 attribute because double quotes are already used to quote the whole
 attribute. I could also have used `&quot;`.
 
-## In the sandbox
+## لەناو سەندبۆکسەکەدا
 
 {{index "malicious script", "World Wide Web", browser, website, security}}
 
@@ -417,7 +417,7 @@ hole, and all is well again—until the next problem is discovered, and
 hopefully publicized, rather than secretly exploited by some
 government agency or ((mafia)).
 
-## Compatibility and the browser wars
+## گونجان و شەڕەکانی وێبگەڕ
 
 {{index Microsoft, "World Wide Web"}}
 
