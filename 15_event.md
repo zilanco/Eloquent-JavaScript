@@ -702,7 +702,7 @@ The ((window)) object will receive `"focus"` and `"blur"` events when
 the user moves from or to the browser tab or window in which the
 document is shown.
 
-## Load event
+## بارکردنی ڕووداو
 
 {{index "script (HTML tag)", "load event"}}
 
@@ -736,7 +736,7 @@ most browsers no longer display them.
 
 {{id timeline}}
 
-## Events and the event loop
+## ڕوداوەکان و لوپی ڕوداوەکە
 
 {{index "requestAnimationFrame function", "event handling", timeline, "script (HTML tag)"}}
 
@@ -795,7 +795,7 @@ listening directly on its ((global scope)). Only values that can be
 represented as JSON can be sent as messages—the other side will
 receive a _copy_ of them, rather than the value itself.
 
-## Timers
+## کاتەکان
 
 {{index timeout, "setTimeout function"}}
 
