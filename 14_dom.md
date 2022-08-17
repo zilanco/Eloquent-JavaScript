@@ -600,7 +600,7 @@ one takes.
 </script>
 ```
 
-## Styling
+## ستایلکردن
 
 {{index "block element", "inline element", style, "strong (HTML tag)", "a (HTML tag)", underline}}
 
@@ -691,7 +691,7 @@ Because such property names are awkward to work with in JavaScript
 `style` object for such properties have their hyphens removed and the
 letters after them capitalized (`style.fontFamily`).
 
-## Cascading styles
+## ستایلەکانی کاسکەدینگ
 
 {{index "rule (CSS)", "style (HTML tag)"}}
 
@@ -768,7 +768,7 @@ that are direct children of `<p>` tags. Similarly, `p a {…}` applies
 to all `<a>` tags inside `<p>` tags, whether they are direct or
 indirect children.
 
-## Query selectors
+## داواکردنی دەسنیشانکەرەکان
 
 {{index complexity, CSS}}
 
@@ -828,7 +828,7 @@ matches.
 
 {{id animation}}
 
-## Positioning and animating
+## شوێندانان و ئەنیمەیشنکردن
 
 {{index "position (CSS)", "relative positioning", "top (CSS)", "left (CSS)", "absolute positioning"}}
 
