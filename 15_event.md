@@ -516,7 +516,7 @@ Note that the order of these codes is different from the one used by
 mentioned, consistency isn't really a strong point of the browser's
 programming interface.
 
-### Touch events
+### ڕووداوەکانی لەمسی
 
 {{index touch, "mousedown event", "mouseup event", "click event"}}
 
@@ -589,7 +589,7 @@ override the browser's default behavior (which may include scrolling
 the page on swiping) and to prevent the mouse events from being fired,
 for which you may _also_ have a handler.
 
-## Scroll events
+## ڕووداوەکانی سکرۆڵ
 
 {{index scrolling, "scroll event", "event handling"}}
 
@@ -650,7 +650,7 @@ Calling `preventDefault` on a scroll event does not prevent the
 scrolling from happening. In fact, the event handler is called only
 _after_ the scrolling takes place.
 
-## Focus events
+## ڕووداوەکانی فۆکوس
 
 {{index "event handling", "focus event", "blur event"}}
 
