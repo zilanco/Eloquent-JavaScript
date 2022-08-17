@@ -1243,9 +1243,9 @@ See if you can beat those. I had quite a lot of fun building them.
 
 if}}
 
-## Exercises
+## ڕاهێنانەکان
 
-### Game over
+### کۆتایی هاتنی یارییەکە
 
 {{index "lives (exercise)", game}}
 
@@ -1282,7 +1282,7 @@ level starts.
 
 if}}
 
-### Pausing the game
+### وەستاندنی یارییەکە
 
 {{index "pausing (exercise)", "escape key", keyboard}}
 
@@ -1377,7 +1377,7 @@ unregistering directly.
 
 hint}}
 
-### A monster
+### ئەهریمەنێک
 
 {{index "monster (exercise)"}}
 
