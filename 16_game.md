@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/chapter/16_game.js", "code/levels.js"], zip: "html include=[\"css/game.css\"]"}}}
 
-# Project: A Platform Game
+# پرۆژە: یارییەکی پلاتفۆرمی
 
 {{quote {author: "Iain Banks", title: "The Player of Games", chapter: true}
 
@@ -33,7 +33,7 @@ that expect the ((player)) to move a figure through a ((world)), which
 is usually two-dimensional and viewed from the side, while jumping over and
 onto things.
 
-## The game
+## یارییەکە
 
 {{index minimalism, "Palef, Thomas", "Dark Blue (game)"}}
 
@@ -69,7 +69,7 @@ elements are the player, coins, and certain pieces of lava. The
 positions of these elements are not constrained to the grid—their
 coordinates may be fractional, allowing smooth ((motion)).
 
-## The technology
+## تەکنەلۆژیکە
 
 {{index "event handling", keyboard, [DOM, graphics]}}
 
@@ -107,7 +107,7 @@ technology, the `<canvas>` tag, which provides a more traditional way
 to draw graphics, working in terms of shapes and ((pixel))s rather
 than DOM elements.
 
-## Levels
+## ئاستەکان
 
 {{index dimensions}}
 
