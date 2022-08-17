@@ -963,7 +963,7 @@ forget. Using numbers without units will result in your style being
 ignored—unless the number is 0, which always means the same thing,
 regardless of its unit.
 
-## Summary
+## کورتە
 
 JavaScript programs may inspect and interfere with the document that
 the browser is displaying through a data structure called the DOM.
@@ -981,11 +981,11 @@ certain nodes. There are many different style properties, such as
 `color` or `display`. JavaScript code can manipulate an element's
 style directly through its `style` property.
 
-## Exercises
+## ڕاهێنانەکان
 
 {{id exercise_table}}
 
-### Build a table
+### خشتەیەک دروست بکە
 
 {{index "table (HTML tag)"}}
 
@@ -1076,7 +1076,7 @@ with the proper `id` attribute.
 
 hint}}
 
-### Elements by tag name
+### توخمەکان بەپێی ناوی تاگ
 
 {{index "getElementsByTagName method", recursion}}
 
@@ -1142,7 +1142,7 @@ on it to inspect its own children.
 
 hint}}
 
-### The cat's hat
+### کڵاوی پشیلەکە
 
 {{index "cat's hat (exercise)", [animation, "spinning cat"]}}
 
