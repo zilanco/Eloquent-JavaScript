@@ -241,7 +241,7 @@ console.log(talksAbout(document.body, "book"));
 The `nodeValue` property of a text node holds the string of text that
 it represents.
 
-## Finding elements
+## دۆزینەوەی توخمەکان
 
 {{index [DOM, querying], "body property", "hard-coding", [whitespace, "in HTML"]}}
 
@@ -297,7 +297,7 @@ A third, similar method is `getElementsByClassName`, which, like
 node and retrieves all elements that have the given string in their
 `class` attribute.
 
-## Changing the document
+## گۆڕینی دۆکیومێنت
 
 {{index "side effect", "removeChild method", "appendChild method", "insertBefore method", [DOM, construction], [DOM, modification]}}
 
@@ -335,7 +335,7 @@ replaced. The replaced node must be a child of the element the method
 is called on. Note that both `replaceChild` and `insertBefore` expect
 the _new_ node as their first argument.
 
-## Creating nodes
+## دروستکردنی گرێکان
 
 {{index "alt attribute", "img (HTML tag)"}}
 
@@ -445,7 +445,7 @@ This is what the resulting document looks like:
 
 if}}
 
-## Attributes
+## تایبەتمەندیەکان
 
 {{index "href attribute", [DOM, attributes]}}
 
@@ -488,7 +488,7 @@ keywords—the property used to access this attribute is called
 `className`. You can also access it under its real name, `"class"`, by
 using the `getAttribute` and `setAttribute` methods.
 
-## Layout
+## ڕیزبەست
 
 {{index layout, "block element", "inline element", "p (HTML tag)", "h1 (HTML tag)", "a (HTML tag)", "strong (HTML tag)"}}
 
