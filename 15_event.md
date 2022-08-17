@@ -284,7 +284,7 @@ Depending on the browser, some events can't be intercepted at all. On
 Chrome, for example, the ((keyboard)) shortcut to close the current
 tab ([control]{keyname}-W or [command]{keyname}-W) cannot be handled by JavaScript.
 
-## Key events
+## ڕووداوە سەرەکیەکان
 
 {{index keyboard, "keydown event", "keyup event", "event handling"}}
 
@@ -372,14 +372,14 @@ whenever the user changes their content. To get the actual content
 that was typed, it is best to directly read it from the focused field.
 [Chapter ?](http#forms) will show how.
 
-## Pointer events
+## ڕووداوەکانی ئاماژەدەر
 
 There are currently two widely used ways to point at things on a
 screen: mice (including devices that act like mice, such as touchpads
 and trackballs) and touchscreens. These produce different kinds of
 events.
 
-### Mouse clicks
+### کلیکەکانی ماوس
 
 {{index "mousedown event", "mouseup event", "mouse cursor"}}
 
@@ -444,7 +444,7 @@ click the document, it adds a dot under your mouse pointer. See
 </script>
 ```
 
-### Mouse motion
+### جوڵەی ماوس
 
 {{index "mousemove event"}}
 
