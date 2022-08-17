@@ -843,7 +843,7 @@ let clock = setInterval(() => {
 }, 200);
 ```
 
-## Debouncing
+## پچڕاندن
 
 {{index optimization, "mousemove event", "scroll event", blocking}}
 
@@ -912,7 +912,7 @@ the current coordinates of the mouse but only every 250 milliseconds.
 </script>
 ```
 
-## Summary
+## کورتە
 
 Event handlers make it possible to detect and react to events
 happening in our web page. The `addEventListener` method is used to
@@ -938,9 +938,9 @@ Scrolling can be detected with the `"scroll"` event, and focus changes
 can be detected with the `"focus"` and `"blur"` events. When the
 document finishes loading, a `"load"` event fires on the window.
 
-## Exercises
+## ڕاهێنانەکان
 
-### Balloon
+### بالۆن
 
 {{index "balloon (exercise)", "arrow key"}}
 
@@ -997,7 +997,7 @@ with another one (using `replaceChild`) or by setting the
 
 hint}}
 
-### Mouse trail
+### شوێنپێی ماوس
 
 {{index animation, "mouse trail (exercise)"}}
 
@@ -1075,7 +1075,7 @@ Figuring out a good way to do this is up to you.
 
 hint}}
 
-### Tabs
+### نینۆک
 
 {{index "tabbed interface (exercise)"}}
 
