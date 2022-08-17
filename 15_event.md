@@ -1,4 +1,4 @@
-# Handling Events
+# چارەسەرکردنی ڕووداوەکان
 
 {{quote {author: "Marcus Aurelius", title: Meditations, chapter: true}
 
@@ -16,7 +16,7 @@ actions. That kind of input isn't available as a well-organized data
 structure—it comes in piece by piece, in real time, and the program is
 expected to respond to it as it happens.
 
-## Event handlers
+## مامەڵەکارانی ڕووداوەکان
 
 {{index polling, button, "real-time"}}
 
@@ -62,7 +62,7 @@ document. Calling its `addEventListener` method registers the second
 argument to be called whenever the event described by its first
 argument occurs.
 
-## Events and DOM nodes
+## ڕووداوەکان و گرێکانی DOM
 
 {{index "addEventListener method", "event handling", "window object", browser, [DOM, events]}}
 
@@ -125,7 +125,7 @@ function value that was given to `addEventListener`. So, to unregister
 a handler, you'll want to give the function a name (`once`, in the
 example) to be able to pass the same function value to both methods.
 
-## Event objects
+## ئۆبجێکتەکانی ڕووداو
 
 {{index "button property", "event handling"}}
 
@@ -158,7 +158,7 @@ We'll discuss different types later in the chapter. The object's
 `type` property always holds a string identifying the event (such as
 `"click"` or `"mousedown"`).
 
-## Propagation
+## بڵاوکردنەوە
 
 {{index "event propagation", "parent node"}}
 
@@ -239,7 +239,7 @@ than register individual handlers on all of the buttons.
 </script>
 ```
 
-## Default actions
+## کردارە بنەڕەتەکان
 
 {{index scrolling, "default behavior", "event handling"}}
 
