@@ -1,4 +1,4 @@
-# The Document Object Model
+# مۆدێلی ئۆبجێکتی دۆکیومێنت
 
 {{quote {author: "Friedrich Nietzsche", title: "Beyond Good and Evil", chapter: true}
 
@@ -26,7 +26,7 @@ structure)) that you can read or modify. It acts as a _live_ data
 structure: when it's modified, the page on the screen is updated to
 reflect the changes.
 
-## Document structure
+## پێکهاتەی دۆکیومێنت
 
 {{index [HTML, structure]}}
 
@@ -69,7 +69,7 @@ The global binding `document` gives us access to these objects. Its
 `<html>` tag. Since every HTML document has a head and a body, it also
 has `head` and `body` properties, pointing at those elements.
 
-## Trees
+## دارەکان
 
 {{index [nesting, "of objects"]}}
 
@@ -128,7 +128,7 @@ relationships between nodes.
 
 {{id standard}}
 
-## The standard
+## ستاندەرد
 
 {{index "programming language", [interface, design], [DOM, interface]}}
 
@@ -174,7 +174,7 @@ own ((abstraction))s, it is possible to design improved ways to
 express the operations you are performing. Many libraries intended for
 browser programming come with such tools.
 
-## Moving through the tree
+## جووڵەکردن بەناو دارەکەدا
 
 {{index pointer}}
 
