@@ -2,6 +2,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 process_begin: CreateProcess(NULL, ls [0-9][0-9]_*.md, ...) failed.
 Makefile:1: pipe: No error
 
+make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', needed by 'html/js/acorn_codemirror.js'.  Stop.
+
 # GNU Make 4.3
 # Built for Windows32
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -9,7 +11,7 @@ Makefile:1: pipe: No error
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 30 23:47:23 2022
+# Make data base, printed on Sun Jul 31 12:49:57 2022
 
 # Variables
 
@@ -40,7 +42,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15680_CIBZWHJKIITSDOGO
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12904_XQHFEKHSHHYSTGZY
 # makefile (from 'Makefile', line 3)
 SVGS := img/control-io.svg img/controlflow-else.svg img/controlflow-if.svg img/controlflow-loop.svg img/controlflow-nested-if.svg img/controlflow-straight.svg img/cos_sin.svg img/flood-grid.svg img/game-grid.svg img/html-boxes.svg img/html-links.svg img/html-tree.svg img/line-grid.svg img/linked-list.svg img/mirror.svg img/pizza-squirrel.svg img/rabbits.svg img/re_number.svg img/re_pigchickens.svg img/re_slow.svg img/syntax_tree.svg img/transform.svg img/unicycle.svg img/weresquirrel.svg
 # environment
@@ -74,7 +76,7 @@ ONEDRIVE = C:\Users\98991\OneDrive
 # makefile
 CURDIR := e:/projects/web/reactJS/2022/Eloquent-JavaScript
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -92,7 +94,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 15680
+VSCODE_PID = 12904
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -310,6 +312,7 @@ code/solutions/06_3_iterable_groups.js:
 
 # Not a target:
 img/generated/weresquirrel.pdf:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -417,10 +420,7 @@ code/solutions/09_2_quoting_style.js:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a  
-make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', needed by 'html/js/acorn_codemirror.js'.  Stop.
-
-target:
+# Not a target:
 code/solutions/07_1_measuring_a_robot.js:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -717,7 +717,8 @@ node_modules/codemirror/mode/javascript/javascript.js:
 #  File has not been updated.
 
 book.epub: epub/titlepage.xhtml epub/toc.xhtml epub/hints.xhtml epub/content.opf.src epub/style.css src/add_images_to_epub.js
-#  Implicit rule search has not been done.
+#  Implicit rule search has not 
+ been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 64):
@@ -1031,6 +1032,6 @@ code/solutions/20_3_a_public_space_on_the_web/other.html:
 # strcache performance: lookups = 394 / hit rate = 13%
 # hash-table stats:
 # Load=339/8192=4%, Rehash=0, Collisions=12/394=3%
-# Finished Make data base on Sat Jul 30 23:47:23 2022
+# Finished Make data base on Sun Jul 31 12:49:57 2022
 
  

@@ -5,15 +5,14 @@ process_begin: CreateProcess(NULL, ls [0-9][0-9]_*.md, ...) failed.
 Makefile:1: pipe: No error
 
 make: *** No rule to make target 'node_modules/codemirror/lib/codemirror.js', needed by 'html/js/acorn_codemirror.js'.
-make: *** No rule to make target 'node_modules/codemirror/mode/javascript/javascript.js', needed by 'html/js/acorn_codemirror.js'.
 
+make: *** No rule to make target 'node_modules/codemirror/mode/javascript/javascript.js', needed by 'html/js/acorn_codemirror.js'.
 make: *** No rule to make target 'node_modules/codemirror/mode/css/css.js', needed by 'html/js/acorn_codemirror.js'.
 make: *** No rule to make target 'node_modules/codemirror/mode/xml/xml.js', needed by 'html/js/acorn_codemirror.js'.
-
 make: *** No rule to make target 'node_modules/codemirror/mode/htmlmixed/htmlmixed.js', needed by 'html/js/acorn_codemirror.js'.
 make: *** No rule to make target 'node_modules/codemirror/addon/edit/matchbrackets.js', needed by 'html/js/acorn_codemirror.js'.
-make: *** No rule to make target 'node_modules/acorn/dist/acorn.js', needed by 'html/js/acorn_codemirror.js'.
 
+make: *** No rule to make target 'node_modules/acorn/dist/acorn.js', needed by 'html/js/acorn_codemirror.js'.
 make: *** No rule to make target 'node_modules/acorn/dist/walk.js', needed by 'html/js/acorn_codemirror.js'.
 
 node src/render_html.js 21_skillsharing.md > html/21_skillsharing.html
@@ -25,49 +24,28 @@ rm -f code/solutions/20_3_a_public_space_on_the_web.zip
 cd code/solutions; zip 20_3_a_public_space_on_the_web.zip 20_3_a_public_space_on_the_web/*
  
 node src/chapter_info.js > html/js/chapter_info.js
- 
 node src/extract_hints.js | node src/render_latex.js - > pdf/hints.tex
- 
 inkscape --export-pdf=img/generated/control-io.pdf img/control-io.svg
 inkscape --export-pdf=img/generated/controlflow-else.pdf img/controlflow-else.svg
- 
 inkscape --export-pdf=img/generated/controlflow-if.pdf img/controlflow-if.svg
- 
 inkscape --export-pdf=img/generated/controlflow-loop.pdf img/controlflow-loop.svg
- 
 inkscape --export-pdf=img/generated/controlflow-nested-if.pdf img/controlflow-nested-if.svg
- 
 inkscape --export-pdf=img/generated/controlflow-straight.pdf img/controlflow-straight.svg
- 
 inkscape --export-pdf=img/generated/cos_sin.pdf img/cos_sin.svg
- 
 inkscape --export-pdf=img/generated/flood-grid.pdf img/flood-grid.svg
- 
 inkscape --export-pdf=img/generated/game-grid.pdf img/game-grid.svg
- 
 inkscape --export-pdf=img/generated/html-boxes.pdf img/html-boxes.svg
- 
 inkscape --export-pdf=img/generated/html-links.pdf img/html-links.svg
- 
 inkscape --export-pdf=img/generated/html-tree.pdf img/html-tree.svg
- 
 inkscape --export-pdf=img/generated/line-grid.pdf img/line-grid.svg
- 
 inkscape --export-pdf=img/generated/linked-list.pdf img/linked-list.svg
- 
 inkscape --export-pdf=img/generated/mirror.pdf img/mirror.svg
- 
 inkscape --export-pdf=img/generated/pizza-squirrel.pdf img/pizza-squirrel.svg
- 
 inkscape --export-pdf=img/generated/rabbits.pdf img/rabbits.svg
 inkscape --export-pdf=img/generated/re_number.pdf img/re_number.svg
- 
 inkscape --export-pdf=img/generated/re_pigchickens.pdf img/re_pigchickens.svg
- 
 inkscape --export-pdf=img/generated/re_slow.pdf img/re_slow.svg
- 
 inkscape --export-pdf=img/generated/syntax_tree.pdf img/syntax_tree.svg
- 
 inkscape --export-pdf=img/generated/transform.pdf img/transform.svg
 inkscape --export-pdf=img/generated/unicycle.pdf img/unicycle.svg
 inkscape --export-pdf=img/generated/weresquirrel.pdf img/weresquirrel.svg
@@ -78,13 +56,11 @@ cd pdf && sh build.sh book_mobile > /dev/null
 mv pdf/book_mobile.pdf .	
 node src/extract_hints.js | node src/render_html.js --epub - > epub/hints.xhtml
 node src/generate_epub_toc.js epub/toc.xhtml.src epub/hints.xhtml > epub/toc.xhtml
- 
 rm -f book.epub
 grep '<img' epub/*.xhtml | sed -e 's/.*src="\([^"]*\)".*/\1/' | xargs -I{} rsync -R "{}" epub
 node src/add_images_to_epub.js
 cd epub; zip -X ../book.epub mimetype
 cd epub; zip -X ../book.epub -r * -x mimetype -x *.src
- 
 ebook-convert book.epub book.mobi --output-profile=kindle --cover=img/cover.jpg --remove-first-image
 make: Leaving directory 'e:/projects/web/reactJS/2022/Eloquent-JavaScript'
  
