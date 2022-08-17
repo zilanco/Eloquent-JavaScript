@@ -951,7 +951,7 @@ Coin.prototype.collide = function(state) {
 
 {{id actors}}
 
-## Actor updates
+## نوێکردنەوەی ئەکتەر
 
 {{index actor, "Lava class", lava}}
 
@@ -1066,7 +1066,7 @@ The gravity strength, ((jumping)) speed, and pretty much all other
 ((constant))s in this game have been set by ((trial and error)). I
 tested values until I found a combination I liked.
 
-## Tracking keys
+## بەدواکەوتنی کلیلەکان
 
 {{index keyboard}}
 
@@ -1115,7 +1115,7 @@ should be updated to true (`"keydown"`) or false (`"keyup"`).
 
 {{id runAnimation}}
 
-## Running the game
+## بەڕێوەبردنی یارییەکە
 
 {{index "requestAnimationFrame function", [animation, "platform game"]}}
 
