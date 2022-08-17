@@ -153,7 +153,7 @@ restored to its starting position, and the player may try again.
 
 {{id level}}
 
-## Reading a level
+## خوێندنەوەی ئاستێک
 
 {{index "Level class"}}
 
@@ -252,7 +252,7 @@ has ended.
 This is again a persistent data structure—updating the game state
 creates a new state and leaves the old one intact.
 
-## Actors
+## ئەکتەرەکان
 
 {{index actor, "Vec class", [interface, object]}}
 
@@ -446,7 +446,7 @@ console.log(`${simpleLevel.width} by ${simpleLevel.height}`);
 The task ahead is to display such levels on the screen and to model
 time and motion inside them.
 
-## Encapsulation as a burden
+## بەستنەوە وەک بارێک
 
 {{index "programming style", "program size", complexity}}
 
@@ -487,7 +487,7 @@ display ((module)).
 
 {{id domdisplay}}
 
-## Drawing
+## وێنەکێشان
 
 {{index "DOMDisplay class", [DOM, graphics]}}
 
@@ -792,7 +792,7 @@ The `<link>` tag, when used with `rel="stylesheet"`, is a way to load
 a CSS file into a page. The file `game.css` contains the styles
 necessary for our game.
 
-## Motion and collision
+## جووڵە و پێکدادان
 
 {{index physics, [animation, "platform game"]}}
 
