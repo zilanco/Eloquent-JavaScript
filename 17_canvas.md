@@ -221,7 +221,7 @@ When no `width` or `height` attribute is specified, as in the example,
 a canvas element gets a default width of 300 pixels and height of 150
 pixels.
 
-## Paths
+## ڕێگاکان
 
 {{index [path, canvas], [interface, design], [canvas, path]}}
 
@@ -299,7 +299,7 @@ You could also use the `closePath` method to explicitly close a path
 by adding an actual ((line)) segment back to the path's start. This
 segment _is_ drawn when stroking the path.
 
-## Curves
+## چەماوەکان
 
 {{index [path, canvas], canvas, drawing}}
 
@@ -432,7 +432,7 @@ if}}
 
 {{id pie_chart}}
 
-## Drawing a pie chart
+## کێشانی هێڵکاری بازنەیی
 
 {{index "pie chart example"}}
 
