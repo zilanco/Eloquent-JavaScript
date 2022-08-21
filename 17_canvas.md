@@ -495,7 +495,7 @@ if}}
 But a chart that doesn't tell us what the slices mean isn't very
 helpful. We need a way to draw text to the ((canvas)).
 
-## Text
+## دەق
 
 {{index stroking, filling, "fillStyle property", "fillText method", "strokeText method"}}
 
@@ -536,7 +536,7 @@ We'll come back to our pie chart, and the problem of ((label))ing the
 slices, in the [exercises](canvas#exercise_pie_chart) at the end of
 the chapter.
 
-## Images
+## وێنەکان
 
 {{index "vector graphics", "bitmap graphics"}}
 
@@ -640,7 +640,7 @@ by using the remainder operator. This binding is then used to compute
 the x-coordinate that the sprite for the current pose has in the
 picture.
 
-## Transformation
+## گۆڕانکاری
 
 {{index transformation, mirroring}}
 
@@ -774,7 +774,7 @@ the world around the character's vertical center.
 </script>
 ```
 
-## Storing and clearing transformations
+## کۆکردنەوە و سڕینەوەی گۆڕانکارییەکان
 
 {{index "side effect", canvas, transformation}}
 
@@ -853,7 +853,7 @@ definitely not a tree.
 
 {{id canvasdisplay}}
 
-## Back to the game
+## گەڕانەوە بۆ یارییەکە
 
 {{index "drawImage method"}}
 
