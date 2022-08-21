@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/chapter/16_game.js", "code/levels.js", "code/chapter/17_canvas.js"], zip: "html include=[\"img/player.png\", \"img/sprites.png\"]"}}}
 
-# Drawing on Canvas
+# وێنەکێشان لەسەر کانڤاکان
 
 {{quote {author: "M.C. Escher", title: "cited by Bruno Ernst in The Magic Mirror of M.C. Escher", chapter: true}
 
@@ -96,7 +96,7 @@ let circle = document.querySelector("circle");
 circle.setAttribute("fill", "cyan");
 ```
 
-## The canvas element
+## توخمە کانڤاسەکە
 
 {{index [canvas, size], "canvas (HTML tag)"}}
 
@@ -160,7 +160,7 @@ of the top-left corner.
 
 {{id fill_stroke}}
 
-## Lines and surfaces
+## هێڵەکان و ڕووەکان
 
 {{index filling, stroking, drawing, SVG}}
 
