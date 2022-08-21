@@ -1144,7 +1144,7 @@ if}}
 
 {{id graphics_tradeoffs}}
 
-## Choosing a graphics interface
+## هەڵبژاردنی ڕووکارێکی گرافیکی
 
 So when you need to generate graphics in the browser, you can choose
 between plain HTML, ((SVG)), and ((canvas)). There is no single
@@ -1204,7 +1204,7 @@ chapter could have been implemented using any of these three
 mouse interaction, or work with an extraordinarily large number of
 elements.
 
-## Summary
+## کورتە
 
 In this chapter we discussed techniques for drawing graphics in the
 browser, focusing on the `<canvas>` element.
@@ -1246,9 +1246,9 @@ with the `save` method and restored with the `restore` method.
 When showing an animation on a canvas, the `clearRect` method can be
 used to clear part of the canvas before redrawing it.
 
-## Exercises
+## ڕاهێنانەکان
 
-### Shapes
+### شێوەکان
 
 {{index "shapes (exercise)"}}
 
@@ -1338,7 +1338,7 @@ hint}}
 
 {{id exercise_pie_chart}}
 
-### The pie chart
+### هێڵکاری بازنەیی
 
 {{index label, text, "pie chart example"}}
 
@@ -1419,7 +1419,7 @@ circle we are on.
 
 hint}}
 
-### A bouncing ball
+### تۆپێکی پەلەوەری
 
 {{index [animation, "bouncing ball"], "requestAnimationFrame function", bouncing}}
 
@@ -1480,7 +1480,7 @@ delete the scene and redraw it using the new position.
 
 hint}}
 
-### Precomputed mirroring
+### ئاوێنەکردنی پێش حیسابکراو
 
 {{index optimization, "bitmap graphics", mirror}}
 
