@@ -358,7 +358,7 @@ format you'd like to receive.
 
 {{id http_sandbox}}
 
-## HTTP sandboxing
+## HTTP ساندبۆکسینگ
 
 {{index sandbox, [browser, security]}}
 
@@ -386,7 +386,7 @@ to come from another domain:
 Access-Control-Allow-Origin: *
 ```
 
-## Appreciating HTTP
+## قەدرزانینی HTTP
 
 {{index client, HTTP, [interface, HTTP]}}
 
@@ -426,7 +426,7 @@ on the client for fast access). The concepts used in HTTP, which are
 well designed, can provide a helpful set of principles to design your
 server interface around.
 
-## Security and HTTPS
+## پاراستن و HTTPS
 
 {{index "man-in-the-middle", security, HTTPS, [network, security]}}
 
@@ -464,7 +464,7 @@ HTTP.
 
 {{id forms}}
 
-## Form fields
+## خانەکانی فۆرم
 
 Forms were originally designed for the pre-JavaScript Web to allow
 web sites to send user-submitted information in an HTTP request. This
@@ -577,7 +577,7 @@ if}}
 Whenever the value of a form field changes, it will fire a `"change"`
 event.
 
-## Focus
+## فۆکوس
 
 {{index keyboard, focus}}
 
