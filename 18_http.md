@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/chapter/18_http.js"]}}}
 
-# HTTP and Forms
+# HTTP و فۆرمەکان
 
 {{quote {author: "Roy Fielding", title: "Architectural Styles and the Design of Network-based Software Architectures", chapter: true}
 
@@ -23,7 +23,7 @@ provided on the ((World Wide Web)). This chapter describes the
 ((protocol)) in more detail and explains the way browser
 JavaScript has access to it.
 
-## The protocol
+## پرۆتۆکۆلەکە
 
 {{index "IP address"}}
 
@@ -155,7 +155,7 @@ line followed by a body, which contains the data being sent. `GET` and
 requests do. Similarly, some response types, such as error responses,
 do not require a body.
 
-## Browsers and HTTP
+## وێبگەڕەکان و HTTP
 
 {{index HTTP, [file, resource]}}
 
@@ -255,7 +255,7 @@ We'll come back to forms and how to interact with them from JavaScript
 
 {{id fetch}}
 
-## Fetch
+## هێنان
 
 {{index "fetch function", "Promise class", [interface, module]}}
 
