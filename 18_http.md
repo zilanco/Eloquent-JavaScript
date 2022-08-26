@@ -644,7 +644,7 @@ add a `tabindex` attribute to any element that will make it
 focusable. A `tabindex` of -1 makes tabbing skip over an element, even
 if it is normally focusable.
 
-## Disabled fields
+## خانە لە کارخراوەکان
 
 {{index "disabled attribute"}}
 
@@ -676,7 +676,7 @@ disable the control until the action finishes. That way, when the user
 gets impatient and clicks it again, they don't accidentally repeat
 their action.
 
-## The form as a whole
+## فۆڕمەکە بەگشتی
 
 {{index "array-like object", "form (HTML tag)", "form property", "elements property"}}
 
@@ -747,7 +747,7 @@ we can disable the regular way of submitting the form entirely, as in
 the example, and have our program handle the input, possibly using
 `fetch` to send it to a server without reloading the page.
 
-## Text fields
+## خانەکانی دەق
 
 {{index "value attribute", "input (HTML tag)", "text field", "textarea (HTML tag)", [DOM, fields], [interface, object]}}
 
