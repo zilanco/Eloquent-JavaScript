@@ -829,7 +829,7 @@ current length of the text in the field:
 </script>
 ```
 
-## Checkboxes and radio buttons
+## چێک بۆکس و دوگمەکانی ڕادیۆ
 
 {{index "input (HTML tag)", "checked attribute"}}
 
@@ -889,7 +889,7 @@ The ((square brackets)) in the CSS query given to `querySelectorAll`
 are used to match attributes. It selects elements whose `name`
 attribute is `"color"`.
 
-## Select fields
+## هەڵبژاردنی بوارەکان
 
 {{index "select (HTML tag)", "multiple-choice", "option (HTML tag)"}}
 
@@ -953,7 +953,7 @@ Hold [control]{keyname} (or [command]{keyname} on a Mac) to select multiple opti
 </script>
 ```
 
-## File fields
+## بواری فایلەکان
 
 {{index file, "hard drive", "file system", security, "file field", "input (HTML tag)"}}
 
@@ -1052,7 +1052,7 @@ function readFileText(file) {
 }
 ```
 
-## Storing data client-side
+## هەڵگرتنی داتا لە لایەنی مشتەری
 
 {{index "web application"}}
 
@@ -1189,7 +1189,7 @@ There is another object, similar to `localStorage`, called
 of `sessionStorage` is forgotten at the end of each _((session))_,
 which for most browsers means whenever the browser is closed.
 
-## Summary
+## کورتە
 
 In this chapter, we discussed how the HTTP protocol works. A _client_
 sends a request, which contains a method (usually `GET`) and a path
@@ -1236,9 +1236,9 @@ information in a way that survives page reloads. The first object saves the
 data forever (or until the user decides to clear it), and the second
 saves it until the browser is closed.
 
-## Exercises
+## ڕاهێنانەکان
 
-### Content negotiation
+### دانوستانی نێوەڕۆک
 
 {{index "Accept header", "media type", "document format", "content negotiation (exercise)"}}
 
@@ -1289,7 +1289,7 @@ can't fulfill the `Accept` header.
 
 hint}}
 
-### A JavaScript workbench
+### بنکێکی کاری جاڤاسکڕێپت
 
 {{index "JavaScript console", "workbench (exercise)"}}
 
@@ -1344,7 +1344,7 @@ end so that not all output appears on a single line.
 
 hint}}
 
-### Conway's Game of Life
+### یاری ژیانی کۆنوای
 
 {{index "game of life (exercise)", "artificial life", "Conway's Game of Life"}}
 
