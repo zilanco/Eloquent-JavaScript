@@ -45,7 +45,7 @@ need to install Node.js version 10.1 or higher. To do so, go to
 instructions for your operating system. You can also find further
 ((documentation)) for Node.js there.
 
-## Background
+## باکگراوند
 
 {{index responsiveness, input, [network, speed]}}
 
@@ -75,7 +75,7 @@ being designed, people were already doing callback-based programming
 in the browser, so the ((community)) around the language was used to
 an asynchronous programming style.
 
-## The node command
+## فەرمانی نۆد
 
 {{index "node program"}}
 
@@ -149,7 +149,7 @@ All the ((standard)) JavaScript global bindings, such as `Array`,
 `Math`, and `JSON`, are also present in Node's environment.
 Browser-related functionality, such as `document` or `prompt`, is not.
 
-## Modules
+## مۆدیولەکان
 
 {{index "Node.js", "global scope", "module loader"}}
 
@@ -232,7 +232,7 @@ $ node main.js JavaScript
 tpircSavaJ
 ```
 
-## Installing with NPM
+## دامەزراندن بە NPM
 
 {{index NPM, "Node.js", "npm program", library}}
 
@@ -275,7 +275,7 @@ this may seem unusual, but it has advantages—it puts each application
 in full control of the packages it installs and makes it easier to
 manage versions and clean up when removing an application.
 
-### Package files
+### فایلەکانی پاکێج
 
 {{index "package.json", dependency}}
 
@@ -311,7 +311,7 @@ will install the dependencies listed in `package.json`. When you
 install a specific package that is not already listed as a dependency,
 NPM will add it to `package.json`.
 
-### Versions
+### وەشانەکان
 
 {{index "package.json", dependency, evolution}}
 
