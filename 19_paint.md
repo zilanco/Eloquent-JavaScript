@@ -1,6 +1,6 @@
 {{meta {load_files: ["code/chapter/19_paint.js"], zip: "html include=[\"css/paint.css\"]"}}}
 
-# Project: A Pixel Art Editor
+# پڕۆژە: سەرنوسەرێکی هونەری پێکسڵ
 
 {{quote {author: "Joan Miro", chapter: true}
 
@@ -30,7 +30,7 @@ them. This is what it will look like:
 Painting on a computer is great. You don't need to worry about
 materials, ((skill)), or talent. You just start smearing.
 
-## Components
+## پێکهاتەکان
 
 {{index drawing, "select (HTML tag)", "canvas (HTML tag)", component}}
 
@@ -130,7 +130,7 @@ Each component has a `syncState` method that is used to synchronize it
 to a new state value. The method takes one argument, the state, which
 is of the same type as the first argument to its constructor.
 
-## The state
+## دۆخ
 
 {{index "Picture class", "picture property", "tool property", "color property", "Matrix class"}}
 
@@ -229,7 +229,7 @@ final stages of being standardized. With that addition, you could
 write `{...state, ...action}` instead. At the time of writing, this
 doesn't yet work in all browsers.
 
-## DOM building
+## بینای DOM
 
 {{index "createElement method", "elt function", [DOM, construction]}}
 
@@ -273,7 +273,7 @@ This allows the following style of registering event handlers:
 </body>
 ```
 
-## The canvas
+## کانڤاسەکان
 
 The first component we'll define is the part of the interface that
 displays the picture as a grid of colored boxes. This component is
@@ -414,7 +414,7 @@ For touch events, `clientX` and `clientY` aren't available directly on
 the event object, but we can use the coordinates of the first touch
 object in the `touches` property.
 
-## The application
+## ئەپڵیکەیشن
 
 To make it possible to build the application piece by piece, we'll
 implement the main component as a shell around a picture canvas and a
@@ -538,7 +538,7 @@ class ColorSelect {
 }
 ```
 
-## Drawing tools
+## ئامرازەکانی وێنەکێشان
 
 Before we can draw anything, we need to implement the ((tool))s that
 will control the functionality of mouse or touch events on the canvas.
@@ -684,7 +684,7 @@ We can now test our application!
 
 if}}
 
-## Saving and loading
+## پاشەکەوتکردن و بارکردن
 
 {{index "SaveButton class", "drawPicture function", [file, image]}}
 
@@ -854,7 +854,7 @@ calls `padStart` to add a leading zero when necessary.
 We can load and save now! That leaves one more feature before we're
 done.
 
-## Undo history
+## پاشەکش کردنەوەی مێژوو
 
 Half of the process of editing is making little mistakes and
 correcting them. So an important feature in a drawing
@@ -933,7 +933,7 @@ class UndoButton {
 }
 ```
 
-## Let's draw
+## با بکێشین
 
 {{index "PixelEditor class", "startState constant", "baseTools constant", "baseControls constant", "startPixelEditor function"}}
 
@@ -998,7 +998,7 @@ Go ahead and draw something. I'll wait.
 
 if}}
 
-## Why is this so hard?
+## بۆچی ئەمە ئەوەندە سەختە؟
 
 Browser technology is amazing. It provides a powerful set of interface
 building blocks, ways to style and manipulate them, and tools to
