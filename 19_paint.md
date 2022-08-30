@@ -1039,12 +1039,12 @@ frameworks. If you're interested in programming web applications, I
 recommend investigating a few of them to understand how they work and
 what benefits they provide.
 
-## Exercises
+## ڕاهێنانەکان
 
 There is still room for improvement in our program. Let's add a few
 more features as exercises.
 
-### Keyboard bindings
+### بەستنەوەی تەختەکلیل
 
 {{index "keyboard bindings (exercise)"}}
 
@@ -1128,7 +1128,7 @@ When the key event matches a shortcut, call `preventDefault` on it and
 
 hint}}
 
-### Efficient drawing
+### وێنەکێشانی کارامە
 
 {{index "efficient drawing (exercise)", "canvas (HTML tag)", efficiency}}
 
@@ -1215,7 +1215,7 @@ skip any pixels after you've changed the canvas size.
 
 hint}}
 
-### Circles
+### بازنەکان
 
 {{index "circles (exercise)", dragging}}
 
@@ -1265,7 +1265,7 @@ picture's boundaries.
 
 hint}}
 
-### Proper lines
+### هێڵە گونجاوەکان
 
 {{index "proper lines (exercise)", "line drawing"}}
 
