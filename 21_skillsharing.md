@@ -1,6 +1,6 @@
 {{meta {code_links: ["code/skillsharing.zip"]}}}
 
-# Project: Skill-Sharing Website
+# پڕۆژە: ماڵپەڕی هاوبەشکردنی لێهاتوویی
 
 {{quote {author: "Margaret Fuller", chapter: true}
 
@@ -42,7 +42,7 @@ page that you are looking at is unlikely to work.]{if interactive} The
 full code for the project can be ((download))ed from
 [_https://eloquentjavascript.net/code/skillsharing.zip_](https://eloquentjavascript.net/code/skillsharing.zip).
 
-## Design
+## دیزاین
 
 {{index "skill-sharing project", persistence}}
 
@@ -78,7 +78,7 @@ clients are currently looking at a given website.
 A common solution to this problem is called _((long polling))_, which
 happens to be one of the motivations for Node's design.
 
-## Long polling
+## ڕاپرسی درێژ
 
 {{index firewall, notification, "long polling", network, [browser, security]}}
 
@@ -135,7 +135,7 @@ requests, and thus ((TCP)) connections, open. Node, which makes it
 easy to manage many connections without creating a separate thread of
 control for each one, is a good fit for such a system.
 
-## HTTP interface
+## ڕووکاری HTTP
 
 {{index "skill-sharing project", [interface, HTTP]}}
 
@@ -267,14 +267,14 @@ Everybody can comment, modify talks, and even delete them. (Since the
 Internet is full of ((hooligan))s, putting such a system online
 without further protection probably wouldn't end well.)
 
-## The server
+## سێرڤەر
 
 {{index "skill-sharing project"}}
 
 Let's start by building the ((server))-side part of the program. The
 code in this section runs on ((Node.js)).
 
-### Routing
+### ڕێڕەوکردن
 
 {{index "createServer function", [path, URL], [method, HTTP]}}
 
@@ -347,7 +347,7 @@ they defined in their ((regular expression)), and the request object.
 The strings have to be URL-decoded since the raw URL may contain
 `%20`-style codes.
 
-### Serving files
+### خزمەتکردنی فایلەکان
 
 When a request matches none of the request types defined in our
 router, the server must interpret it as a request for a file in the
@@ -416,7 +416,7 @@ chapter](node) for responses—handlers return promises that resolve to
 objects describing the response. It wraps the server in an object that
 also holds its state.
 
-### Talks as resources
+### قسە کەردن وەک سەرچاوە
 
 The ((talk))s that have been proposed are stored in the `talks`
 property of the server, an object whose property names are the talk
@@ -549,7 +549,7 @@ router.add("POST", /^\/talks\/([^\/]+)\/comments$/,
 
 Trying to add a comment to a nonexistent talk returns a 404 error.
 
-### Long polling support
+### پشتگیری ڕاپرسی درێژ
 
 The most interesting aspect of the server is the part that handles
 ((long polling)). When a `GET` request comes in for `/talks`, it may
@@ -652,7 +652,7 @@ talk-managing interface under the `/talks` URL.
 new SkillShareServer(Object.create(null)).start(8000);
 ```
 
-## The client
+## کڕیار
 
 {{index "skill-sharing project"}}
 
@@ -694,7 +694,7 @@ some space between talks.
 At the bottom, it adds a heading at the top of the page and loads the
 script that contains the ((client))-side application.
 
-### Actions
+### کردارەکان
 
 The application state consists of the list of talks and the name of
 the user, and we'll store it in a `{talks, user}` object. We don't
@@ -786,7 +786,7 @@ function reportError(error) {
 }
 ```
 
-### Rendering components
+### پێکهاتەکانی ڕەندەرکردن
 
 {{index "renderUserField function"}}
 
@@ -907,7 +907,7 @@ function renderTalkForm(dispatch) {
 }
 ```
 
-### Polling
+### ڕاپرسی
 
 {{index "pollTalks function", "long polling", "If-None-Match header", "Prefer header", "fetch function"}}
 
@@ -963,7 +963,7 @@ next request. If the response is a normal 200 response, its body is
 read as ((JSON)) and passed to the callback, and its `ETag` header
 value is stored for the next iteration.
 
-### The application
+### ئەپڵیکەیشنەکە
 
 {{index "SkillShareApp class"}}
 
@@ -1029,7 +1029,7 @@ If you run the server and open two browser windows for
 see that the actions you perform in one window are immediately visible
 in the other.
 
-## Exercises
+## ڕاهێنانەکان
 
 {{index "Node.js", NPM}}
 
@@ -1040,7 +1040,7 @@ first
 have Node installed [_https://nodejs.org_](https://nodejs.org), and have
 installed the project's dependency with `npm install`.
 
-### Disk persistence
+### بەردەوامبوونی دیسک
 
 {{index "data loss", persistence, [memory, persistence]}}
 
@@ -1081,7 +1081,7 @@ object.
 
 hint}}
 
-### Comment field resets
+### ڕێست کردنەوەی مەیدانی کۆمێنت
 
 {{index "comment field reset (exercise)", template, [state, "of application"]}}
 
