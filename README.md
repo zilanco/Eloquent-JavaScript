@@ -59,18 +59,18 @@ so please use this table as a guide for your translating too. (however if you kn
 
 | English      | Kurdish |
 | ----------- | ----------- |
-| web     | وێب       |
-| Website   | ماڵپەڕ        |
-| interface      | ڕووکار       |
-| tools      | ئامراز       |
-| server   | سێرڤەر        |
-| Versions      | وەشانەکان       |
-| Modules   | مۆدیولەکان        |
-| node      | نۆد       |
-| Background   | باکگراوند        |
-| Protocol      | پرۆتۆکۆڵ       |
-| Browsers   | وێبگەڕەکان        |
-| Radio | ڕادیۆ       |
+| web | وێب|
+| Website | ماڵپەڕ|
+| interface | ڕووکار|
+| tools | ئامراز|
+| server | سێرڤەر|
+| Versions | وەشانەکان|
+| Modules | مۆدیولەکان|
+| node | نۆد|
+| Background | باکگراوند |
+| Protocol | پرۆتۆکۆڵ|
+| Browsers | وێبگەڕەکان|
+| Radio | ڕادیۆ|
 | buttons | دوگمەکان|
 | Checkbox | چێک بۆکس|
 | Data | داتا|
