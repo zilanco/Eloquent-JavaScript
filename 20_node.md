@@ -359,7 +359,7 @@ This book won't delve further into the details of ((NPM)) usage. Refer
 to [_https://npmjs.org_](https://npmjs.org) for further documentation and a
 way to search for packages.
 
-## The file system module
+## مۆدیۆلی سیستەمی فایلەکان
 
 {{index directory, "fs package", "Node.js", [file, access]}}
 
@@ -470,7 +470,7 @@ your program is stopped entirely. If it should be responding to the
 user or to other machines on the network, being stuck on a synchronous
 action might produce annoying delays.
 
-## The HTTP module
+## مۆدیۆلی HTTP
 
 {{index "Node.js", "http package", [HTTP, server]}}
 
@@ -600,7 +600,7 @@ There are much more convenient wrapper packages available on NPM. For
 example, `node-fetch` provides the promise-based `fetch` interface that
 we know from the browser.
 
-## Streams
+## ستریمەکان
 
 {{index "Node.js", stream, "writable stream"}}
 
@@ -698,7 +698,7 @@ the response may come in as multiple chunks.
 
 {{id file_server}}
 
-## A file server
+## سێرڤەری فایل
 
 {{index "file server example", "Node.js", [HTTP, server]}}
 
@@ -1032,7 +1032,7 @@ yet. The `PUT` request creates the file, and behold, the next request
 successfully retrieves it. After deleting it with a `DELETE` request,
 the file is again missing.
 
-## Summary
+## کورتە
 
 {{index "Node.js"}}
 
@@ -1055,9 +1055,9 @@ explicitly use a synchronous variant of a function, such as
 callback functions, and Node will call them with an error value and
 (if available) a result when it is ready.
 
-## Exercises
+## ڕاهێنانەکان
 
-### Search tool
+### ئامرازی گەڕان
 
 {{index grep, "search problem", "search tool (exercise)"}}
 
@@ -1118,7 +1118,7 @@ character)) (`/`) between them.
 
 hint}}
 
-### Directory creation
+### دروستکردنی ڕێبەرنامە
 
 {{index "file server example", "directory creation (exercise)", "rmdir function"}}
 
@@ -1165,7 +1165,7 @@ Code 400 ("bad request") would be appropriate.
 
 hint}}
 
-### A public space on the web
+### بۆشاییەکی گشتی لەسەر وێب
 
 {{index "public space (exercise)", "file server example", "Content-Type header", website}}
 
