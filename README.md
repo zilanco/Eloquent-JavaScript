@@ -51,3 +51,42 @@ to the same language (and possibly never finish it). (Since
 translations have to retain the license, it is okay to pick up someone
 else's translation and continue it, even when they have vanished from
 the internet.)
+
+## Words list
+
+This table is for special words that don't have kurdish meaning or i don't know them yet!
+so please use this table as a guide for your translating too. (however if you know the kurdish word for it, please first make a pull request to this readme file and then if the maintainers agreed with you, the words will be replaced)
+
+| English      | Kurdish |
+| ----------- | ----------- |
+| web     | وێب       |
+| Website   | ماڵپەڕ        |
+| interface      | ڕووکار       |
+| tools      | ئامراز       |
+| server   | سێرڤەر        |
+| Versions      | وەشانەکان       |
+| Modules   | مۆدیولەکان        |
+| node      | نۆد       |
+| Background   | باکگراوند        |
+| Protocol      | پرۆتۆکۆڵ       |
+| Browsers   | وێبگەڕەکان        |
+| Radio | ڕادیۆ       |
+| buttons | دوگمەکان|
+| Checkbox | چێک بۆکس|
+| Data | داتا|
+| keyboard |تەختەکلیل|
+| Summary | کورتە|
+| Exercises | ڕاهێنانەکان|
+| application | ئەپڵیکەیشن|
+| canva |کانڤا|
+| component | پێکهاتەکان|
+| Exercises | ڕاهێنانەکان|
+| application | ئەپڵیکەیشن|
+| state |دۆخ|
+| JavaScript | جاڤاسکڕێپت|
+| Node.js | Node.js|
+| DOM | DOM|
+| HTML | HTML|
+| HTTP | HTTP|
+| HTTPS | HTTPS|
+| NPM | NPM|
