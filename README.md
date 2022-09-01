@@ -84,6 +84,7 @@ so please use this table as a guide for your translating too. (however if you kn
 | application | ئەپڵیکەیشن|
 | state |دۆخ|
 | JavaScript | جاڤاسکڕێپت|
+| Eloquent JavaScript | جاڤاسکریپتی ڕوون|
 | Node.js | Node.js|
 | DOM | DOM|
 | HTML | HTML|
