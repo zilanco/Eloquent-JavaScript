@@ -83,6 +83,7 @@ so please use this table as a guide for your translating too. (however if you kn
 | Exercises | ڕاهێنانەکان|
 | application | ئەپڵیکەیشن|
 | state |دۆخ|
+| Functions |فەنکشنکان|
 | JavaScript | جاڤاسکڕێپت|
 | Eloquent JavaScript | جاڤاسکریپتی ڕوون|
 | Node.js | Node.js|
