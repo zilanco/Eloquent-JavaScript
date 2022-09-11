@@ -13,9 +13,9 @@ quote}}
 
 {{figure {url: "img/chapter_picture_00.jpg", alt: "Picture of a screwdriver and a circuit board", chapter: "framed"}}}
 
-This is a book about instructing ((computer))s. Computers are about as
-common as screwdrivers today, but they are quite a bit more complex,
-and making them do what you want them to do isn't always easy.
+ئەمە کتێبێکە لەبارەی ڕێنمایی کۆمپیوتەرەکان. کۆمپیوتەرەکان ئەمڕۆ
+ وەک پیچکەرەوە باون، بەڵام ئەتوانن زۆر ئاڵۆزترن،
+ وە کارەکیان پێی بکەیت کە دەتەویت بیکەن هەمیشە ئاسان نییە.
 
 If the task you have for your computer is a common, well-understood
 one, such as showing you your email or acting like a calculator, you
