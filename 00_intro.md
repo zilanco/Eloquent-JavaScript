@@ -17,10 +17,10 @@ quote}}
  وەک پیچکەرەوە باون، بەڵام ئەتوانن زۆر ئاڵۆزترن،
  وە کارەکیان پێی بکەیت کە دەتەویت بیکەن هەمیشە ئاسان نییە.
 
-If the task you have for your computer is a common, well-understood
-one, such as showing you your email or acting like a calculator, you
-can open the appropriate ((application)) and get to work. But for
-unique or open-ended tasks, there probably is no application.
+ئەگەر ئەو ئەرکەی کە بۆ کۆمپیوتەرەکەتت هەیە باو بێت، باش تێگەیشتوو
+بێت، وەک پیشاندانی ئیمەیڵەکەت یان نواندن وەک ژمێرەر، تۆ
+دەتوانێت کاربەرنامەی گونجاو بکاتەوە و بچێتە سەر کار. بەڵام بۆ
+ئەرکی بێهاوتا یان کراوە، لەوانەیە هیچ کاربەرنامەیەکی تێدا نەبێت.
 
 That is where ((programming)) may come in. _Programming_ is the act of
 constructing a _program_—a set of precise instructions telling a
