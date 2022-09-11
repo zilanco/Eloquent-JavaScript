@@ -6,7 +6,7 @@
 
 ئێمە پێمان وایە ئێمە سیستەمەکە بۆ مەبەستی خۆمان دروست دەکەین. ئێمە باوەڕمان وایە
 ئێمە بە وێنەی خۆمان دروستی دەکەین... بەڵام کۆمپیوتەر بەڕاستی وەک ئێمە نییە.
- ئەوە پێشبینی بەشێکی زۆر باریکی خۆمانە: کە
+ئەوە پێشبینی بەشێکی زۆر باریکی خۆمانە: کە
 بەشی تەرخانکراو بۆ مەنتیق، فەرمان، یاسا، و ڕوونیه.
 
 quote}}
@@ -14,18 +14,18 @@ quote}}
 {{figure {url: "img/chapter_picture_00.jpg", alt: "Picture of a screwdriver and a circuit board", chapter: "framed"}}}
 
 ئەمە کتێبێکە لەبارەی ڕێنمایی کۆمپیوتەرەکان. کۆمپیوتەرەکان ئەمڕۆ
- وەک پیچکەرەوە باون، بەڵام ئەتوانن زۆر ئاڵۆزترن،
- وە کارەکیان پێی بکەیت کە دەتەویت بیکەن هەمیشە ئاسان نییە.
+وەک پیچکەرەوە باون، بەڵام ئەتوانن زۆر ئاڵۆزترن،
+وە کارەکیان پێی بکەیت کە دەتەویت بیکەن هەمیشە ئاسان نییە.
 
 ئەگەر ئەو ئەرکەی کە بۆ کۆمپیوتەرەکەتت هەیە باو بێت، باش تێگەیشتوو
 بێت، وەک پیشاندانی ئیمەیڵەکەت یان نواندن وەک ژمێرەر، تۆ
 دەتوانێت کاربەرنامەی گونجاو بکاتەوە و بچێتە سەر کار. بەڵام بۆ
 ئەرکی بێهاوتا یان کراوە، لەوانەیە هیچ کاربەرنامەیەکی تێدا نەبێت.
 
-That is where ((programming)) may come in. _Programming_ is the act of
-constructing a _program_—a set of precise instructions telling a
-computer what to do. Because computers are dumb, pedantic beasts,
-programming is fundamentally tedious and frustrating.
+ئەمە ئەو شوێنەیە کە پرۆگرامکردن دیتە کار. پرۆگرامکردن کرداری
+دروستکردنی بەرنامەیە. کۆمەڵێک ڕێنمایی ورد کە بە کۆمپیوتەر دەلیت
+چی بکات. چونکە کۆمپیوتەرەکان دڕندەیەکی گێل و پێدانتیکن.
+پرۆگرامکردن لە بنەڕەتدا ماندوو و بێزارکەرە.
 
 {{index [programming, "joy of"], speed}}
 
@@ -185,16 +185,16 @@ satisfaction.
 Each line of the previous program contains a single instruction. It
 could be written in English like this:
 
- 1. Store the number 0 in memory location 0.
- 2. Store the number 1 in memory location 1.
- 3. Store the value of memory location 1 in memory location 2.
- 4. Subtract the number 11 from the value in memory location 2.
- 5. If the value in memory location 2 is the number 0,
+1.  Store the number 0 in memory location 0.
+2.  Store the number 1 in memory location 1.
+3.  Store the value of memory location 1 in memory location 2.
+4.  Subtract the number 11 from the value in memory location 2.
+5.  If the value in memory location 2 is the number 0,
     continue with instruction 9.
- 6. Add the value of memory location 1 to memory location 0.
- 7. Add the number 1 to the value of memory location 1.
- 8. Continue with instruction 3.
- 9. Output the value of memory location 0.
+6.  Add the value of memory location 1 to memory location 0.
+7.  Add the number 1 to the value of memory location 1.
+8.  Continue with instruction 3.
+9.  Output the value of memory location 0.
 
 {{index readability, naming, binding}}
 
